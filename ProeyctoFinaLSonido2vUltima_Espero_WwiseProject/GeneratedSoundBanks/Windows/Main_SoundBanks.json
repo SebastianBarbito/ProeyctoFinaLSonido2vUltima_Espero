@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2310174327",
+    "Type": "User",
+    "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
+    "Language": "SFX",
+    "Hash": "{15EF2943-9FBB-4CEA-BF48-5B66DCA0C728}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
+    "ShortName": "Main_SoundBanks",
+    "Path": "Main_SoundBanks.bnk",
+    "Media": [
+     {
+      "Id": "726894518",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Advertencia_Pasillo_04.wav",
+      "CachePath": "7C/{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4237703276",
+      "Name": "Play_Musica",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Musica",
+      "GUID": "{8E67F4DC-B450-478C-88A7-6FE78B061D80}",
+      "DurationType": "OneShot",
+      "DurationMin": "21.5",
+      "DurationMax": "21.5",
+      "MediaRefs": [
+       {
+        "Id": "726894518"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3532D8C9-53F2-B519-B747-17D1FC062909}"
+ }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Musica_Prueba" ID="{60BC4D36-837D-4EDA-8FFF-F0CD79D10697}" ShortID="112534749">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Advertencia_Pasillo_04" ID="{C6753BAD-ADA9-4ED6-B088-B89006F52FB4}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Advertencia_Pasillo_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="726894518"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Advertencia_Pasillo_04" ID="{C6753BAD-ADA9-4ED6-B088-B89006F52FB4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

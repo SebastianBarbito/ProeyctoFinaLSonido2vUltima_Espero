@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4237703276	Play_Musica			\Default Work Unit\Play_Musica	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	726894518	Musica_Prueba	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\7C\{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica_Prueba		3792696
+

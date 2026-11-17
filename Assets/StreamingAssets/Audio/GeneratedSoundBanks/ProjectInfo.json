@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "ProeyctoFinaLSonido2vUltima_Espero_WwiseProject",
+   "GUID": "{FB5DFF58-F56E-4F95-99CE-AE63344BA643}",
+   "Generator": "2024.1.18.9194"
+  },
+  "CacheRoot": "../../../../ProeyctoFinaLSonido2vUltima_Espero_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{5AE3B2CB-EBF5-4C83-A48A-36BBC8BA6576}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../ProeyctoFinaLSonido2vUltima_Espero_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{B9FE29CA-94B7-4309-9A36-7664699F8E5D}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../ProeyctoFinaLSonido2vUltima_Espero_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{23966362-20E0-44FC-A86E-DED2A3F2F330}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{CCD48173-12C0-74C9-8BF9-039DB840B246}"
+ }
+}
