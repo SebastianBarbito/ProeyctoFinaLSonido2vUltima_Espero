@@ -83,6 +83,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Encender_Linterna" ID="{D1DEAA3F-7AA2-4B43-906A-F6367276CB6D}">
+					<ChildrenList>
+						<Action Name="" ID="{4237D8D2-B8B7-4976-8EB9-ADE2407B4803}" ShortID="146224117">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Prender_Linterna" ID="{F1DD922D-3EEA-4DAE-8042-BFD6C56811C9}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Apagar_Linterna" ID="{D8885296-D5A6-4E82-A3AC-B2A21691B046}">
+					<ChildrenList>
+						<Action Name="" ID="{EFF51D09-15A9-4D01-929E-97E6371E26C9}" ShortID="192074990">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Apagar_Linterna" ID="{DBC5E340-1CA9-43EC-B875-52E3123D632C}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

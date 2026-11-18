@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{5201EDE2-5167-9A1C-3247-58134D975744}",
+    "Hash": "{2F8FE789-0606-6554-4430-E20227948125}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
@@ -72,6 +72,14 @@
       "CachePath": "7C/{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem"
      },
      {
+      "Id": "769250874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Apagar_Linterna.wav",
+      "CachePath": "06/{06748C66-2902-5B6B-6632-47BF99A67CDA}.wem"
+     },
+     {
       "Id": "895831658",
       "Language": "SFX",
       "Streaming": "false",
@@ -86,6 +94,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Foco_Zumbido_05.wav",
       "CachePath": "21/{21C33CF4-0E1B-550E-D71F-2142CEF5F177}.wem"
+     },
+     {
+      "Id": "917981791",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prender_Linterna.wav",
+      "CachePath": "3F/{3F7562F8-8751-47E4-A5A8-97C85173FD3F}.wem"
      }
     ],
     "Events": [
@@ -99,6 +115,20 @@
       "MediaRefs": [
        {
         "Id": "596029218"
+       }
+      ]
+     },
+     {
+      "Id": "2176756322",
+      "Name": "Play_Encender_Linterna",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Encender_Linterna",
+      "GUID": "{D1DEAA3F-7AA2-4B43-906A-F6367276CB6D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.48876",
+      "DurationMax": "0.48876",
+      "MediaRefs": [
+       {
+        "Id": "917981791"
        }
       ]
      },
@@ -175,6 +205,21 @@
         "Id": "560863874"
        }
       ]
+     },
+     {
+      "Id": "3077582168",
+      "Name": "Stop_Apagar_Linterna",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Apagar_Linterna",
+      "GUID": "{D8885296-D5A6-4E82-A3AC-B2A21691B046}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "769250874"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -187,6 +232,6 @@
     ]
    }
   ],
-  "FileHash": "{6DA79320-FD81-D195-E258-99761B27BB60}"
+  "FileHash": "{19CB9242-9AF3-3B80-166E-AA176E31E7AE}"
  }
 }

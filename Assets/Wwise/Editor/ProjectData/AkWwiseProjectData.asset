@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fc693bcaf409c44bac6fe881f71427bc
     GuidInternal: 
-    m_lastTime: -8584066321066525583
+    m_lastTime: -8584066289873200131
     List:
     - name: Main_SoundBanks
       guid: 6f0bf8d98bf022449770bd5e5c64dbff
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 49ed2acf65acc54c86f14bdd0db74f94
     GuidInternal: 
-    m_lastTime: -8584066321066656516
+    m_lastTime: -8584066289873393045
     List:
     - name: Play_Caloventor
       guid: dda27c31ae405b498e0a031562044088
@@ -111,6 +111,57 @@ MonoBehaviour:
         guid: dda27c31ae405b498e0a031562044088
       Path: Events\Default Work Unit\Play_Caloventor
       maxAttenuation: 12
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Encender_Linterna
+      guid: 3faaded1a27a434b906af6367276cb6d
+      id: 2176756322
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Encender_Linterna
+        ObjectType: 3
+        guid: 3faaded1a27a434b906af6367276cb6d
+      Path: Events\Default Work Unit\Play_Encender_Linterna
+      maxAttenuation: 0
+      maxDuration: 0.48876
+      minDuration: 0.48876
+    - name: Play_Goteo
+      guid: ff2afe79ab933042a578cbb34f559635
+      id: 2813165888
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Goteo
+        ObjectType: 3
+        guid: ff2afe79ab933042a578cbb34f559635
+      Path: Events\Default Work Unit\Play_Goteo
+      maxAttenuation: 4
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Goteo_Techo
+      guid: 752df641efaf5e498a1f0e932f2c25cc
+      id: 357313574
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Goteo_Techo
+        ObjectType: 3
+        guid: 752df641efaf5e498a1f0e932f2c25cc
+      Path: Events\Default Work Unit\Play_Goteo_Techo
+      maxAttenuation: 4
       maxDuration: 0
       minDuration: 0
     - name: Play_Led
@@ -178,6 +229,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2fbf0f053f289f42b48fa28ac8382ab4
       Path: Events\Default Work Unit\Play_Resecuenciacion_Horizontal
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Apagar_Linterna
+      guid: 965288d8a6d5824ea3acb2a21691b046
+      id: 3077582168
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Stop_Apagar_Linterna
+        ObjectType: 3
+        guid: 965288d8a6d5824ea3acb2a21691b046
+      Path: Events\Default Work Unit\Stop_Apagar_Linterna
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -334,7 +402,7 @@ MonoBehaviour:
     m_lastTime: -8584066388722031106
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000600000007000000090000000a0000000b0000000c00000011000000120000001600000017000000320000003300000034000000390000003a0000003c0000003d0000004f000000500000005300000054000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000c00000011000000120000001600000017000000320000003300000034000000390000003a0000003c0000003d0000004f000000500000005300000054000000
   AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 0

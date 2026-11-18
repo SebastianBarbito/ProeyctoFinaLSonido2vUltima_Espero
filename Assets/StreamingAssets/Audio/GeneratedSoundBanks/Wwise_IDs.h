@@ -14,12 +14,14 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_CALOVENTOR = 688593871U;
+        static const AkUniqueID PLAY_ENCENDER_LINTERNA = 2176756322U;
         static const AkUniqueID PLAY_GOTEO = 2813165888U;
         static const AkUniqueID PLAY_GOTEO_TECHO = 357313574U;
         static const AkUniqueID PLAY_LED = 2624422069U;
         static const AkUniqueID PLAY_MUSICA = 4237703276U;
         static const AkUniqueID PLAY_REMEZCLA_VERTICAL = 2829283560U;
         static const AkUniqueID PLAY_RESECUENCIACION_HORIZONTAL = 1915193845U;
+        static const AkUniqueID STOP_APAGAR_LINTERNA = 3077582168U;
     } // namespace EVENTS
 
     namespace STATES

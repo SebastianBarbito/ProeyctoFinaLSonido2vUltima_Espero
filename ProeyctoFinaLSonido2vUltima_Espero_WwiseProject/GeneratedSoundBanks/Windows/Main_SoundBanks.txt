@@ -1,9 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	357313574	Play_Goteo_Techo			\Default Work Unit\Play_Goteo_Techo	
 	688593871	Play_Caloventor			\Default Work Unit\Play_Caloventor	
+	2176756322	Play_Encender_Linterna			\Default Work Unit\Play_Encender_Linterna	
 	2624422069	Play_Led			\Default Work Unit\Play_Led	
 	2813165888	Play_Goteo			\Default Work Unit\Play_Goteo	
 	2829283560	Play_Remezcla_Vertical			\Default Work Unit\Play_Remezcla_Vertical	
+	3077582168	Stop_Apagar_Linterna			\Default Work Unit\Stop_Apagar_Linterna	
 	4237703276	Play_Musica			\Default Work Unit\Play_Musica	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -17,6 +19,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	560863874	violin	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\37\{37B1296E-CDAE-C07A-BDA1-39C497BECB23}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\violin		12288096
 	596029218	SFX_Caloventor	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\AE\{AEE9FA21-A16E-D225-F4F6-ECCEC9C394A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Caloventor		2702072
 	726894518	Musica_Prueba	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\7C\{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica_Prueba		3792696
+	769250874	SFX_Apagar_Linterna	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\06\{06748C66-2902-5B6B-6632-47BF99A67CDA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Apagar_Linterna		37792
 	895831658	SFX_Goteo_Techo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\57\{573D4029-C655-4CE2-C472-B9C727E5CF17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo_Techo		1260708
 	906966753	SXF_Foco_Salida	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\21\{21C33CF4-0E1B-550E-D71F-2142CEF5F177}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SXF_Foco_Salida		1682476
+	917981791	SFX_Prender_Linterna	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\3F\{3F7562F8-8751-47E4-A5A8-97C85173FD3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Prender_Linterna		93940
 

@@ -158,6 +158,64 @@
 						<ActiveSource Name="SFX_ContenedorAgua_Golpe_03" ID="{818F5BC6-48B0-4232-9A84-1F0C7CB85218}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_Prender_Linterna" ID="{F1DD922D-3EEA-4DAE-8042-BFD6C56811C9}" ShortID="42952671">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Prender_Linterna" ID="{E08BDBC3-D71F-4341-9BA8-8B7B740C9367}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.12208"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.1221"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.2873"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.77606"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Prender_Linterna.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="917981791"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Prender_Linterna" ID="{E08BDBC3-D71F-4341-9BA8-8B7B740C9367}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Apagar_Linterna" ID="{DBC5E340-1CA9-43EC-B875-52E3123D632C}" ShortID="267906185">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Apagar_Linterna" ID="{78775EB5-F999-44C4-B312-048EC72FF52E}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.05578"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.05049"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.12485"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.32119"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Apagar_Linterna.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="769250874"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Apagar_Linterna" ID="{78775EB5-F999-44C4-B312-048EC72FF52E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

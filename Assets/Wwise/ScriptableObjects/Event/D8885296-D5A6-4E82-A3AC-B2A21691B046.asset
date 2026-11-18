@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce25b2d2d3189aa439726388743f26d1, type: 3}
+  m_Name: D8885296-D5A6-4E82-A3AC-B2A21691B046
+  m_EditorClassIdentifier: 
+  objectName: Stop_Apagar_Linterna
+  id: 3077582168
+  guid: D8885296-D5A6-4E82-A3AC-B2A21691B046
+  IsInUserDefinedSoundBank: 1
