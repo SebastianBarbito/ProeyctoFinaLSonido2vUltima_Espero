@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: dcf4678e50b48c4788a76fe78b061d80
       Path: Events\Default Work Unit\Play_Musica
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 21.5
+      minDuration: 21.5
     - name: Play_Remezcla_Vertical
       guid: 2251d130b3b4664a86d48835bd023060
       id: 2829283560
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: 2251d130b3b4664a86d48835bd023060
       Path: Events\Default Work Unit\Play_Remezcla_Vertical
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Resecuenciacion_Horizontal
       guid: 2fbf0f053f289f42b48fa28ac8382ab4
       id: 1915193845
@@ -145,8 +145,8 @@ MonoBehaviour:
         guid: 2fbf0f053f289f42b48fa28ac8382ab4
       Path: Events\Default Work Unit\Play_Resecuenciacion_Horizontal
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
