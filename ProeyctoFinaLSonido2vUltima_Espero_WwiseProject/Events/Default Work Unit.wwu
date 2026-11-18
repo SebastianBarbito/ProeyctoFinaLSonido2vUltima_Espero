@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Remezcla_Vertical" ID="{30D15122-B4B3-4A66-86D4-8835BD023060}">
+					<ChildrenList>
+						<Action Name="" ID="{5908ED44-9282-4D04-8768-185EE88830B0}" ShortID="744529972">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Remezcla_Vertical" ID="{23503CE2-83EF-454C-9EFB-A5B0F497A25A}" WorkUnitID="{6E3A16CE-09E1-4993-AADE-E2AD0BF99EDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Resecuenciacion_Horizontal" ID="{050FBF2F-283F-429F-B48F-A28AC8382AB4}">
+					<ChildrenList>
+						<Action Name="" ID="{DAB54E8A-4769-4D5A-9B6A-157B7A91B194}" ShortID="423905061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Resecuenciacion_Horizontal" ID="{27F97980-2582-4A1A-A430-4181DEFC27F5}" WorkUnitID="{6E3A16CE-09E1-4993-AADE-E2AD0BF99EDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

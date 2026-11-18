@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 0d2050f14e75f148a707b6bd550c9b0d
     GuidInternal: 
-    m_lastTime: -8584067221548252956
+    m_lastTime: -8584066388722001182
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8c3392f78f39e44780fa3893fd99c421
     GuidInternal: 
-    m_lastTime: -8584067221550585775
+    m_lastTime: -8584066388722274349
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fc693bcaf409c44bac6fe881f71427bc
     GuidInternal: 
-    m_lastTime: -8584067221549586010
-    List: []
+    m_lastTime: -8584066372292018954
+    List:
+    - name: Main_SoundBanks
+      guid: 6f0bf8d98bf022449770bd5e5c64dbff
+      id: 2310174327
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fc693bcaf409c44bac6fe881f71427bc
+      - ElementName: Main_SoundBanks
+        ObjectType: 7
+        guid: 6f0bf8d98bf022449770bd5e5c64dbff
+      Path: SoundBanks\Default Work Unit\Main_SoundBanks
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 49ed2acf65acc54c86f14bdd0db74f94
     GuidInternal: 
-    m_lastTime: -8584067221551035301
-    List: []
+    m_lastTime: -8584066372292132847
+    List:
+    - name: Play_Musica
+      guid: dcf4678e50b48c4788a76fe78b061d80
+      id: 4237703276
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Musica
+        ObjectType: 3
+        guid: dcf4678e50b48c4788a76fe78b061d80
+      Path: Events\Default Work Unit\Play_Musica
+      maxAttenuation: 0
+      maxDuration: 21.5
+      minDuration: 21.5
+    - name: Play_Remezcla_Vertical
+      guid: 2251d130b3b4664a86d48835bd023060
+      id: 2829283560
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Remezcla_Vertical
+        ObjectType: 3
+        guid: 2251d130b3b4664a86d48835bd023060
+      Path: Events\Default Work Unit\Play_Remezcla_Vertical
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +142,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 519ce89d6cc3f6469054f2f4cd6357e0
     GuidInternal: 
-    m_lastTime: -8584067221549919182
-    List: []
+    m_lastTime: -8584066372292457195
+    List:
+    - name: Distance_Volumen
+      guid: f5da73f236eb794f88de1bc20bb564b6
+      id: 2816995233
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 519ce89d6cc3f6469054f2f4cd6357e0
+      - ElementName: Distance_Volumen
+        ObjectType: 13
+        guid: f5da73f236eb794f88de1bc20bb564b6
+      Path: Game Parameters\Default Work Unit\Distance_Volumen
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -108,8 +170,90 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a4d91b3f81b62d43a0e507ef6d24fe0b
     GuidInternal: 
-    m_lastTime: -8584067221547929939
-    List: []
+    m_lastTime: -8584066372292247753
+    List:
+    - name: Resecuenciacion_Horizontal
+      guid: 7ed22e81873b8c4d94acd67442ce7d54
+      id: 1093012506
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4d91b3f81b62d43a0e507ef6d24fe0b
+      - ElementName: Resecuenciacion_Horizontal
+        ObjectType: 9
+        guid: 7ed22e81873b8c4d94acd67442ce7d54
+      Path: States\Default Work Unit\Resecuenciacion_Horizontal
+      values:
+      - name: None
+        guid: af7fa75eee77174ebd9fdff101acb116
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4d91b3f81b62d43a0e507ef6d24fe0b
+        - ElementName: Resecuenciacion_Horizontal
+          ObjectType: 9
+          guid: 7ed22e81873b8c4d94acd67442ce7d54
+        - ElementName: None
+          ObjectType: 8
+          guid: af7fa75eee77174ebd9fdff101acb116
+      - name: Pasillo
+        guid: 349ffdff43244045b0b68691e608dadd
+        id: 1818940147
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4d91b3f81b62d43a0e507ef6d24fe0b
+        - ElementName: Resecuenciacion_Horizontal
+          ObjectType: 9
+          guid: 7ed22e81873b8c4d94acd67442ce7d54
+        - ElementName: Pasillo
+          ObjectType: 8
+          guid: 349ffdff43244045b0b68691e608dadd
+      - name: Pasillo_Supenso
+        guid: 2e39064b5a606645b19341ca12c160f0
+        id: 3343733293
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4d91b3f81b62d43a0e507ef6d24fe0b
+        - ElementName: Resecuenciacion_Horizontal
+          ObjectType: 9
+          guid: 7ed22e81873b8c4d94acd67442ce7d54
+        - ElementName: Pasillo_Supenso
+          ObjectType: 8
+          guid: 2e39064b5a606645b19341ca12c160f0
+      - name: Sala_Maquinas
+        guid: f0b74e9fdfa36c44b9960e716ad1afee
+        id: 261264058
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4d91b3f81b62d43a0e507ef6d24fe0b
+        - ElementName: Resecuenciacion_Horizontal
+          ObjectType: 9
+          guid: 7ed22e81873b8c4d94acd67442ce7d54
+        - ElementName: Sala_Maquinas
+          ObjectType: 8
+          guid: f0b74e9fdfa36c44b9960e716ad1afee
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -122,7 +266,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5b2b9d610b354740b24397f733d7f573
     GuidInternal: 
-    m_lastTime: -8584067221550752224
+    m_lastTime: -8584066388722031106
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -136,10 +280,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: f0f8fcddf6d62046a921ed85e649e1fe
     GuidInternal: 
-    m_lastTime: -8584067221547419739
+    m_lastTime: -8584066388722031106
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000090000000a000000390000003a0000004f00000050000000
+  ExpandedWaapiItemIds: 010000000500000006000000090000000a0000000b0000000c00000011000000120000001600000017000000390000003a0000004f00000050000000
   AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 0

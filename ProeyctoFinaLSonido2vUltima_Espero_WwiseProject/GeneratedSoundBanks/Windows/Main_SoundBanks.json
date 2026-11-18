@@ -10,11 +10,43 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{15EF2943-9FBB-4CEA-BF48-5B66DCA0C728}",
+    "Hash": "{498C0C30-63FD-FE68-A5C0-05DA83DF6BD5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
     "Media": [
+     {
+      "Id": "65666645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "piano.wav",
+      "CachePath": "08/{08E3B8DB-A974-AE82-0EAA-9D50D4C63A0E}.wem"
+     },
+     {
+      "Id": "176513170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bateria.wav",
+      "CachePath": "AE/{AEA345E1-4ED4-9541-0F85-9E00BC9FAC6F}.wem"
+     },
+     {
+      "Id": "544425411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bajo.wav",
+      "CachePath": "59/{5907055E-DBF0-2074-B8A3-C00F477729A0}.wem"
+     },
+     {
+      "Id": "560863874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "violin.wav",
+      "CachePath": "37/{37B1296E-CDAE-C07A-BDA1-39C497BECB23}.wem"
+     },
      {
       "Id": "726894518",
       "Language": "SFX",
@@ -38,10 +70,39 @@
         "Id": "726894518"
        }
       ]
+     },
+     {
+      "Id": "2829283560",
+      "Name": "Play_Remezcla_Vertical",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Remezcla_Vertical",
+      "GUID": "{30D15122-B4B3-4A66-86D4-8835BD023060}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "65666645"
+       },
+       {
+        "Id": "176513170"
+       },
+       {
+        "Id": "544425411"
+       },
+       {
+        "Id": "560863874"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2816995233",
+      "Name": "Distance_Volumen",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_Volumen",
+      "GUID": "{F273DAF5-EB36-4F79-88DE-1BC20BB564B6}"
      }
     ]
    }
   ],
-  "FileHash": "{3532D8C9-53F2-B519-B747-17D1FC062909}"
+  "FileHash": "{2A65CBA6-AF1F-B381-CAEF-914B45A2EF7B}"
  }
 }

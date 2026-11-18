@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1093012506	Resecuenciacion_Horizontal			\Default Work Unit\Resecuenciacion_Horizontal	
+
+State	ID	Name	State Group			Notes
+	261264058	Sala_Maquinas	Resecuenciacion_Horizontal			
+	748895195	None	Resecuenciacion_Horizontal			
+	1818940147	Pasillo	Resecuenciacion_Horizontal			
+	3343733293	Pasillo_Supenso	Resecuenciacion_Horizontal			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

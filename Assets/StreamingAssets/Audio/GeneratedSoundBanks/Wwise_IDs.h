@@ -14,7 +14,31 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_MUSICA = 4237703276U;
+        static const AkUniqueID PLAY_REMEZCLA_VERTICAL = 2829283560U;
+        static const AkUniqueID PLAY_RESECUENCIACION_HORIZONTAL = 1915193845U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace RESECUENCIACION_HORIZONTAL
+        {
+            static const AkUniqueID GROUP = 1093012506U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PASILLO = 1818940147U;
+                static const AkUniqueID PASILLO_SUPENSO = 3343733293U;
+                static const AkUniqueID SALA_MAQUINAS = 261264058U;
+            } // namespace STATE
+        } // namespace RESECUENCIACION_HORIZONTAL
+
+    } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID DISTANCE_VOLUMEN = 2816995233U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

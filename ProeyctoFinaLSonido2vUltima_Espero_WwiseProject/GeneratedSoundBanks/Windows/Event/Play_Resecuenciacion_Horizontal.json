@@ -1,0 +1,134 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1915193845",
+    "Type": "Event",
+    "GUID": "{050FBF2F-283F-429F-B48F-A28AC8382AB4}",
+    "Language": "SFX",
+    "Hash": "{1007ED04-6187-193C-4A82-807182175330}",
+    "ObjectPath": "Play_Resecuenciacion_Horizontal",
+    "ShortName": "Play_Resecuenciacion_Horizontal",
+    "Path": "Event/Play_Resecuenciacion_Horizontal.bnk",
+    "Media": [
+     {
+      "Id": "3300498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Pasillo.wav",
+      "Path": "Media/3300498.wem",
+      "CachePath": "2F/{2F51326A-ABA1-0624-E9CE-AAA0A6760C05}.wem"
+     },
+     {
+      "Id": "472572301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Advertencia_Pasillo_04.wav",
+      "Path": "Media/472572301.wem",
+      "CachePath": "29/{293C3D3F-7116-DBEB-1939-9BF3FBBA0AC9}.wem"
+     },
+     {
+      "Id": "507349917",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Sala_Maquinas.wav",
+      "Path": "Media/507349917.wem",
+      "CachePath": "0A/{0A38083A-CFA6-EEB1-B1D3-F6571BE1A157}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1915193845",
+      "Name": "Play_Resecuenciacion_Horizontal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Resecuenciacion_Horizontal",
+      "GUID": "{050FBF2F-283F-429F-B48F-A28AC8382AB4}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1093012506",
+         "Id": "1818940147",
+         "GUID": "{FFFD9F34-2443-4540-B0B6-8691E608DADD}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "3300498"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1093012506",
+         "Id": "3343733293",
+         "GUID": "{4B06392E-605A-4566-B193-41CA12C160F0}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "472572301"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1093012506",
+         "Id": "261264058",
+         "GUID": "{9F4EB7F0-A3DF-446C-B996-0E716AD1AFEE}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "507349917"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1093012506",
+      "Name": "Resecuenciacion_Horizontal",
+      "ObjectPath": "\\States\\Default Work Unit\\Resecuenciacion_Horizontal",
+      "GUID": "{812ED27E-3B87-4D8C-94AC-D67442CE7D54}",
+      "States": [
+       {
+        "Id": "261264058",
+        "Name": "Sala_Maquinas",
+        "ObjectPath": "\\States\\Default Work Unit\\Resecuenciacion_Horizontal\\Sala_Maquinas",
+        "GUID": "{9F4EB7F0-A3DF-446C-B996-0E716AD1AFEE}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Resecuenciacion_Horizontal\\None",
+        "GUID": "{5EA77FAF-77EE-4E17-BD9F-DFF101ACB116}"
+       },
+       {
+        "Id": "1818940147",
+        "Name": "Pasillo",
+        "ObjectPath": "\\States\\Default Work Unit\\Resecuenciacion_Horizontal\\Pasillo",
+        "GUID": "{FFFD9F34-2443-4540-B0B6-8691E608DADD}"
+       },
+       {
+        "Id": "3343733293",
+        "Name": "Pasillo_Supenso",
+        "ObjectPath": "\\States\\Default Work Unit\\Resecuenciacion_Horizontal\\Pasillo_Supenso",
+        "GUID": "{4B06392E-605A-4566-B193-41CA12C160F0}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5CD78165-83FD-6E5D-24B6-60766A8FC349}"
+ }
+}

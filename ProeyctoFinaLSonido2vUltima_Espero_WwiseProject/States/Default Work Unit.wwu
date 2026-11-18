@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3F1BD9A4-B681-432D-A0E5-07EF6D24FE0B}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{3F1BD9A4-B681-432D-A0E5-07EF6D24FE0B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3F1BD9A4-B681-432D-A0E5-07EF6D24FE0B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Resecuenciacion_Horizontal" ID="{812ED27E-3B87-4D8C-94AC-D67442CE7D54}">
+					<ChildrenList>
+						<State Name="None" ID="{5EA77FAF-77EE-4E17-BD9F-DFF101ACB116}"/>
+						<State Name="Pasillo" ID="{FFFD9F34-2443-4540-B0B6-8691E608DADD}"/>
+						<State Name="Pasillo_Supenso" ID="{4B06392E-605A-4566-B193-41CA12C160F0}"/>
+						<State Name="Sala_Maquinas" ID="{9F4EB7F0-A3DF-446C-B996-0E716AD1AFEE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
