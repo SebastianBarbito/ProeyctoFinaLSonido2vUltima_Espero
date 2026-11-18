@@ -5,8 +5,12 @@
 			<ChildrenList>
 				<SoundBank Name="Main_SoundBanks" ID="{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Goteo" ID="{79FE2AFF-93AB-4230-A578-CBB34F559635}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Musica" ID="{8E67F4DC-B450-478C-88A7-6FE78B061D80}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Caloventor" ID="{317CA2DD-40AE-495B-8E0A-031562044088}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goteo_Techo" ID="{41F62D75-AFEF-495E-8A1F-0E932F2C25CC}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Remezcla_Vertical" ID="{30D15122-B4B3-4A66-86D4-8835BD023060}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Led" ID="{4AA4AD53-9CEC-4C47-B3D1-52E04D4F7B90}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

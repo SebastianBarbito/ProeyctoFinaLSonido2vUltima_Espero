@@ -25,6 +25,139 @@
 						<ActiveSource Name="SFX_Advertencia_Pasillo_04" ID="{C6753BAD-ADA9-4ED6-B088-B89006F52FB4}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_Caloventor" ID="{EE47E620-9813-4CB6-864C-9607E457AE35}" ShortID="466395517">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ventilacion" ID="{544CB0AE-FDB7-4DA0-902C-B025ACB37356}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Ventilacion_Habitacion1_13" ID="{5AFBA426-8F67-48C4-BED7-E600AAC28408}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.59875"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.71283"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Ventilacion_Habitacion1_13.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="596029218"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Ventilacion_Habitacion1_13" ID="{5AFBA426-8F67-48C4-BED7-E600AAC28408}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SXF_Foco_Salida" ID="{9A5C221B-58A5-4F0B-AAD6-7C6C8577A3D0}" ShortID="671437141">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Foco_Zumbido_05" ID="{DE12CE0A-584F-4EE1-81FE-022CEB1FEB5E}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Foco_Zumbido_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="906966753"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Foco_Zumbido_05" ID="{DE12CE0A-584F-4EE1-81FE-022CEB1FEB5E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Goteo" ID="{23BA82D1-8FE3-453B-8B57-0BE8DDBAFCB5}" ShortID="875655871">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Goteo" ID="{2C079284-26AF-4DB6-BBC5-9372E92CFB60}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Goteo_tuberias_14" ID="{C548BFEE-FBEB-4E90-BFEF-49CBBB3C57E6}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.03424"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.36806"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.86162"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Goteo_tuberias_14.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="270132360"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Goteo_tuberias_14" ID="{C548BFEE-FBEB-4E90-BFEF-49CBBB3C57E6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Goteo_Techo" ID="{8F039435-B2D2-4F20-BAC9-9949B4CE741C}" ShortID="209422090">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Goteo" ID="{2C079284-26AF-4DB6-BBC5-9372E92CFB60}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_ContenedorAgua_Golpe_03" ID="{818F5BC6-48B0-4232-9A84-1F0C7CB85218}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.56768"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.76802"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.14632"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_ContenedorAgua_Golpe_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="895831658"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_ContenedorAgua_Golpe_03" ID="{818F5BC6-48B0-4232-9A84-1F0C7CB85218}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,4 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	357313574	Play_Goteo_Techo			\Default Work Unit\Play_Goteo_Techo	
+	688593871	Play_Caloventor			\Default Work Unit\Play_Caloventor	
+	2624422069	Play_Led			\Default Work Unit\Play_Led	
+	2813165888	Play_Goteo			\Default Work Unit\Play_Goteo	
 	2829283560	Play_Remezcla_Vertical			\Default Work Unit\Play_Remezcla_Vertical	
 	4237703276	Play_Musica			\Default Work Unit\Play_Musica	
 
@@ -8,7 +12,11 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	65666645	piano	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\08\{08E3B8DB-A974-AE82-0EAA-9D50D4C63A0E}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\piano		12288096
 	176513170	bateria	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\AE\{AEA345E1-4ED4-9541-0F85-9E00BC9FAC6F}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\bateria		12288096
+	270132360	SFX_Goteo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\0B\{0B86960D-A021-9EF3-4D34-9EAB80F78BE5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo		1125528
 	544425411	bajo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\59\{5907055E-DBF0-2074-B8A3-C00F477729A0}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\bajo		12288096
 	560863874	violin	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\37\{37B1296E-CDAE-C07A-BDA1-39C497BECB23}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\violin		12288096
+	596029218	SFX_Caloventor	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\AE\{AEE9FA21-A16E-D225-F4F6-ECCEC9C394A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Caloventor		2702072
 	726894518	Musica_Prueba	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\7C\{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica_Prueba		3792696
+	895831658	SFX_Goteo_Techo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\57\{573D4029-C655-4CE2-C472-B9C727E5CF17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo_Techo		1260708
+	906966753	SXF_Foco_Salida	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\21\{21C33CF4-0E1B-550E-D71F-2142CEF5F177}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SXF_Foco_Salida		1682476
 

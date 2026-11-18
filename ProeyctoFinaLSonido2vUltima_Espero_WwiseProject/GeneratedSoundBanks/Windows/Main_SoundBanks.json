@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{498C0C30-63FD-FE68-A5C0-05DA83DF6BD5}",
+    "Hash": "{5201EDE2-5167-9A1C-3247-58134D975744}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
@@ -32,6 +32,14 @@
       "CachePath": "AE/{AEA345E1-4ED4-9541-0F85-9E00BC9FAC6F}.wem"
      },
      {
+      "Id": "270132360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Goteo_tuberias_14.wav",
+      "CachePath": "0B/{0B86960D-A021-9EF3-4D34-9EAB80F78BE5}.wem"
+     },
+     {
       "Id": "544425411",
       "Language": "SFX",
       "Streaming": "false",
@@ -48,15 +56,91 @@
       "CachePath": "37/{37B1296E-CDAE-C07A-BDA1-39C497BECB23}.wem"
      },
      {
+      "Id": "596029218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Ventilacion_Habitacion1_13.wav",
+      "CachePath": "AE/{AEE9FA21-A16E-D225-F4F6-ECCEC9C394A1}.wem"
+     },
+     {
       "Id": "726894518",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Advertencia_Pasillo_04.wav",
       "CachePath": "7C/{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem"
+     },
+     {
+      "Id": "895831658",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_ContenedorAgua_Golpe_03.wav",
+      "CachePath": "57/{573D4029-C655-4CE2-C472-B9C727E5CF17}.wem"
+     },
+     {
+      "Id": "906966753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Foco_Zumbido_05.wav",
+      "CachePath": "21/{21C33CF4-0E1B-550E-D71F-2142CEF5F177}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "688593871",
+      "Name": "Play_Caloventor",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Caloventor",
+      "GUID": "{317CA2DD-40AE-495B-8E0A-031562044088}",
+      "MaxAttenuation": "12",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "596029218"
+       }
+      ]
+     },
+     {
+      "Id": "2813165888",
+      "Name": "Play_Goteo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Goteo",
+      "GUID": "{79FE2AFF-93AB-4230-A578-CBB34F559635}",
+      "MaxAttenuation": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "270132360"
+       }
+      ]
+     },
+     {
+      "Id": "357313574",
+      "Name": "Play_Goteo_Techo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Goteo_Techo",
+      "GUID": "{41F62D75-AFEF-495E-8A1F-0E932F2C25CC}",
+      "MaxAttenuation": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "895831658"
+       }
+      ]
+     },
+     {
+      "Id": "2624422069",
+      "Name": "Play_Led",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Led",
+      "GUID": "{4AA4AD53-9CEC-4C47-B3D1-52E04D4F7B90}",
+      "MaxAttenuation": "6",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "906966753"
+       }
+      ]
+     },
      {
       "Id": "4237703276",
       "Name": "Play_Musica",
@@ -103,6 +187,6 @@
     ]
    }
   ],
-  "FileHash": "{2A65CBA6-AF1F-B381-CAEF-914B45A2EF7B}"
+  "FileHash": "{6DA79320-FD81-D195-E258-99761B27BB60}"
  }
 }
