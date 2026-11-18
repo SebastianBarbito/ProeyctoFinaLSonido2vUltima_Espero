@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 0d2050f14e75f148a707b6bd550c9b0d
     GuidInternal: 
-    m_lastTime: -8584066388722001182
+    m_lastTime: -8584066378360433182
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8c3392f78f39e44780fa3893fd99c421
     GuidInternal: 
-    m_lastTime: -8584066388722274349
+    m_lastTime: -8584066378360608486
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fc693bcaf409c44bac6fe881f71427bc
     GuidInternal: 
-    m_lastTime: -8584066372292018954
+    m_lastTime: -8584066335302827921
     List:
     - name: Main_SoundBanks
       guid: 6f0bf8d98bf022449770bd5e5c64dbff
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 49ed2acf65acc54c86f14bdd0db74f94
     GuidInternal: 
-    m_lastTime: -8584066372292132847
+    m_lastTime: -8584066335310366565
     List:
     - name: Play_Musica
       guid: dcf4678e50b48c4788a76fe78b061d80
@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: dcf4678e50b48c4788a76fe78b061d80
       Path: Events\Default Work Unit\Play_Musica
       maxAttenuation: 0
-      maxDuration: 21.5
-      minDuration: 21.5
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Remezcla_Vertical
       guid: 2251d130b3b4664a86d48835bd023060
       id: 2829283560
@@ -128,8 +128,25 @@ MonoBehaviour:
         guid: 2251d130b3b4664a86d48835bd023060
       Path: Events\Default Work Unit\Play_Remezcla_Vertical
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Resecuenciacion_Horizontal
+      guid: 2fbf0f053f289f42b48fa28ac8382ab4
+      id: 1915193845
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Resecuenciacion_Horizontal
+        ObjectType: 3
+        guid: 2fbf0f053f289f42b48fa28ac8382ab4
+      Path: Events\Default Work Unit\Play_Resecuenciacion_Horizontal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -142,7 +159,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 519ce89d6cc3f6469054f2f4cd6357e0
     GuidInternal: 
-    m_lastTime: -8584066372292457195
+    m_lastTime: -8584066335310256505
     List:
     - name: Distance_Volumen
       guid: f5da73f236eb794f88de1bc20bb564b6
@@ -170,7 +187,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a4d91b3f81b62d43a0e507ef6d24fe0b
     GuidInternal: 
-    m_lastTime: -8584066372292247753
+    m_lastTime: -8584066335302760840
     List:
     - name: Resecuenciacion_Horizontal
       guid: 7ed22e81873b8c4d94acd67442ce7d54
@@ -266,7 +283,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5b2b9d610b354740b24397f733d7f573
     GuidInternal: 
-    m_lastTime: -8584066388722031106
+    m_lastTime: -8584066378360443412
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -280,7 +297,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: f0f8fcddf6d62046a921ed85e649e1fe
     GuidInternal: 
-    m_lastTime: -8584066388722031106
+    m_lastTime: -8584066378360438275
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 010000000500000006000000090000000a0000000b0000000c00000011000000120000001600000017000000390000003a0000004f00000050000000
