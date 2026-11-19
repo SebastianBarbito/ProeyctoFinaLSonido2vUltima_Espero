@@ -4,31 +4,22 @@ using UnityEngine;
 public class AscensorFalla : MonoBehaviour
 {
     [Header("Eventos de Wwise")]
-    [Tooltip("Sonido al pulsar E / llamar al ascensor")]
     public AK.Wwise.Event eventoLlamarAscensor;
-
-    [Tooltip("Sonido de falla del ascensor (falla_elevador)")]
     public AK.Wwise.Event eventoFallaAscensor;
-
-    [Tooltip("Sonido de advertencia o alarma")]
     public AK.Wwise.Event eventoAdvertencia;
 
     [Header("Tiempos de la Secuencia")]
-    [Tooltip("Segundos que espera tras llamar antes de que falle el ascensor")]
     public float tiempoLlamada = 1.5f;
-
-    [Tooltip("Retraso tras el sonido de falla antes de lanzar la advertencia y mostrar la nota")]
     public float retrasoAdvertenciaYNota = 1.0f;
-
-    [Tooltip("Segundos que se muestra la nota en pantalla")]
     public float tiempoMostrarNota = 5.0f;
 
     [Header("Configuración de UI")]
-    [Tooltip("Aviso opcional al acercarse (ej. 'Presiona E')")]
     public GameObject panelInteractuar;
-
-    [Tooltip("Panel o texto con el mensaje de fallo del ascensor")]
     public GameObject panelNota;
+
+    [Header("Recompensa / Escape")]
+    [Tooltip("Arrastra aquí el objeto de la llave (empieza desactivado y se activa al terminar la falla)")]
+    public GameObject llaveObjeto;
 
     [Header("Configuración de la Cámara (Efecto Temblor)")]
     public Transform camaraPlayer;
@@ -37,6 +28,14 @@ public class AscensorFalla : MonoBehaviour
 
     private bool secuenciaIniciada = false;
     private bool jugadorEnZona = false;
+
+    void Start()
+    {
+        if (llaveObjeto != null)
+        {
+            llaveObjeto.SetActive(false);
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -84,7 +83,6 @@ public class AscensorFalla : MonoBehaviour
 
     IEnumerator SecuenciaFallaAscensor()
     {
-        // 1. Sonido al llamar al ascensor
         if (eventoLlamarAscensor != null && eventoLlamarAscensor.IsValid())
         {
             eventoLlamarAscensor.Post(gameObject);
@@ -95,7 +93,6 @@ public class AscensorFalla : MonoBehaviour
             yield return new WaitForSeconds(tiempoLlamada);
         }
 
-        // 2. Sonido de falla del ascensor + temblor de cámara
         if (eventoFallaAscensor != null && eventoFallaAscensor.IsValid())
         {
             eventoFallaAscensor.Post(gameObject);
@@ -106,13 +103,11 @@ public class AscensorFalla : MonoBehaviour
             StartCoroutine(TemblorCamaraRoutine());
         }
 
-        // 3. Esperamos 1 segundo (retrasoAdvertenciaYNota) tras la falla
         if (retrasoAdvertenciaYNota > 0f)
         {
             yield return new WaitForSeconds(retrasoAdvertenciaYNota);
         }
 
-        // 4. Suena la advertencia y aparece la nota al mismo tiempo
         if (eventoAdvertencia != null && eventoAdvertencia.IsValid())
         {
             eventoAdvertencia.Post(gameObject);
@@ -128,6 +123,12 @@ public class AscensorFalla : MonoBehaviour
         if (panelNota != null)
         {
             panelNota.SetActive(false);
+        }
+
+        // Habilita la llave una vez que terminó toda la secuencia de falla
+        if (llaveObjeto != null)
+        {
+            llaveObjeto.SetActive(true);
         }
     }
 
