@@ -674,6 +674,151 @@
 						<ActiveSource Name="SFX_tiktak_reloj_15" ID="{4150DE08-1425-441A-AF3A-DD039DC755DC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_Puerta_Bloqueada" ID="{5E52FE82-07D4-4F23-AC45-E502A40ACD08}" ShortID="424729195">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Puerta_Bloqueada" ID="{E86CF002-CE15-4B35-A776-0E08722CED45}">
+							<Language>SFX</Language>
+							<AudioFile>Puerta_Bloqueada.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="213031688"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Puerta_Bloqueada" ID="{E86CF002-CE15-4B35-A776-0E08722CED45}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Puerta_Desbloqueada" ID="{0C2DD973-580C-486A-B56C-6E10D312D8E8}" ShortID="925120661">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Puerta_Desbloqueandose" ID="{D5B72206-BF75-4184-97F6-4BC64E6725BC}">
+							<Language>SFX</Language>
+							<AudioFile>Puerta_Desbloqueandose.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="319897442"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Puerta_Desbloqueandose" ID="{D5B72206-BF75-4184-97F6-4BC64E6725BC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Llave_Encontrada" ID="{55E47768-BF14-4644-8C82-1C464ADEC629}" ShortID="56595916">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Llave_Encontrada" ID="{30BDA070-624F-4186-AF0D-6E29D170DBE4}">
+							<Language>SFX</Language>
+							<AudioFile>Llave_Encontrada.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="785842707"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Llave_Encontrada" ID="{30BDA070-624F-4186-AF0D-6E29D170DBE4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Rueda_Oxidada" ID="{87643C6B-3908-4DFB-99A1-3B2EF0EB1468}" ShortID="801850671">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Camilla" ID="{FB59EF9A-5A15-447A-9510-FED3B325506E}">
+							<Language>SFX</Language>
+							<AudioFile>Camilla.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="124568255"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Camilla" ID="{FB59EF9A-5A15-447A-9510-FED3B325506E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Silla_Rueda" ID="{FA0D3D1D-48A9-45D7-8E78-FA7F90D5408E}" ShortID="409631056">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SillaDeRuedas" ID="{289A22D8-D09C-4375-A0D1-7D49F775C589}">
+							<Language>SFX</Language>
+							<AudioFile>SillaDeRuedas.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="684139152"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SillaDeRuedas" ID="{289A22D8-D09C-4375-A0D1-7D49F775C589}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

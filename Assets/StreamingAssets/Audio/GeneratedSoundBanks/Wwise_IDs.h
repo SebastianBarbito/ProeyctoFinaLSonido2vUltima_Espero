@@ -15,19 +15,24 @@ namespace AK
     {
         static const AkUniqueID PLAY_ADVERTENCIA = 1321838970U;
         static const AkUniqueID PLAY_CALOVENTOR = 688593871U;
+        static const AkUniqueID PLAY_CAMILLA = 3408996381U;
         static const AkUniqueID PLAY_ENCENDER_LINTERNA = 2176756322U;
         static const AkUniqueID PLAY_FALLA_ASCENSOR = 1710759427U;
         static const AkUniqueID PLAY_GOTEO = 2813165888U;
         static const AkUniqueID PLAY_GOTEO_TECHO = 357313574U;
         static const AkUniqueID PLAY_LAMAR_ASCENSOR = 1810150942U;
         static const AkUniqueID PLAY_LED = 2624422069U;
+        static const AkUniqueID PLAY_LLAVE_ENCONTRADA = 566163868U;
         static const AkUniqueID PLAY_MUSICA = 4237703276U;
         static const AkUniqueID PLAY_PASOS = 4031831520U;
         static const AkUniqueID PLAY_PUERTA_ABRIR = 1640487806U;
+        static const AkUniqueID PLAY_PUERTA_BLOQUEADA = 2270890718U;
         static const AkUniqueID PLAY_PUERTA_CERRAR = 2336636307U;
+        static const AkUniqueID PLAY_PUERTA_DESABLOQUEADA = 978577829U;
         static const AkUniqueID PLAY_RELOJ = 62066324U;
         static const AkUniqueID PLAY_REMEZCLA_VERTICAL = 2829283560U;
         static const AkUniqueID PLAY_RESECUENCIACION_HORIZONTAL = 1915193845U;
+        static const AkUniqueID PLAY_SILLA_RUEDAS = 4005120638U;
         static const AkUniqueID RESUME_AMBIENT = 539592213U;
         static const AkUniqueID STOP_AMBIENTE = 2091828637U;
         static const AkUniqueID STOP_APAGAR_LINTERNA = 3077582168U;

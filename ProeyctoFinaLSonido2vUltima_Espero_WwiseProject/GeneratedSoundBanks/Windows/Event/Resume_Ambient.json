@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1DAE0CC1-59E9-4E75-B58E-D69DD80FAF43}",
     "Language": "SFX",
-    "Hash": "{BF9C3FAF-5D89-A58C-1D7F-83C9E418222B}",
+    "Hash": "{2D858003-C377-2400-F3F2-ED4D67700962}",
     "ObjectPath": "Resume_Ambient",
     "ShortName": "Resume_Ambient",
     "Path": "Event/Resume_Ambient.bnk",
@@ -31,7 +31,7 @@
       "Name": "Resume_Ambient",
       "ObjectPath": "\\Events\\Default Work Unit\\Resume_Ambient",
       "GUID": "{1DAE0CC1-59E9-4E75-B58E-D69DD80FAF43}",
-      "MaxAttenuation": "6",
+      "MaxAttenuation": "3",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{1B0652F5-40A0-89B4-1EAF-ADEA73D2947E}"
+  "FileHash": "{B71C025F-3DBA-461D-EF09-F7327A54FE24}"
  }
 }

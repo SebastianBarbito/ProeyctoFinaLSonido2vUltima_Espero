@@ -2051,12 +2051,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desplazamientoLocal: {x: 0, y: 1, z: 0}
   rotacionExtra: {x: 0, y: 0, z: 0}
-  duracionMovimiento: 0.6
+  duracionMovimiento: 1.2
   retrasoActivacion: 0
   eventoMoverCamilla:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ad8b97baaccde35468bb0dc07f14e0e8, type: 2}
   soloUnaVez: 1
 --- !u!1 &158930572 stripped
 GameObject:
@@ -8210,12 +8210,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desplazamientoLocal: {x: 0, y: -1, z: 0}
   rotacionExtra: {x: 0, y: 0, z: 0}
-  duracionMovimiento: 0.6
+  duracionMovimiento: 1.17
   retrasoActivacion: 0
   eventoMoverCamilla:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 412a9dbaea7f17440952bea26eb0536f, type: 2}
   soloUnaVez: 1
 --- !u!65 &1239177736
 BoxCollider:
@@ -8236,8 +8236,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7433152, y: 1.0477109, z: 1.0049999}
-  m_Center: {x: -0.0000004783989, y: -0.026200002, z: 0.48449993}
+  m_Size: {x: 0.91595876, y: 1.0477109, z: 1.0049999}
+  m_Center: {x: -0.08632218, y: -0.026199995, z: 0.48449993}
 --- !u!1 &1240785443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1945705582659965144, guid: 296b418466748244ab98b7227a665bcb, type: 3}
@@ -10145,7 +10145,7 @@ MonoBehaviour:
   eventoRecogerLlave:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 264c88b0b5a51f44eae8b245529c64cf, type: 2}
   panelInteractuar: {fileID: 0}
   panelMensajeLlave: {fileID: 0}
   textoMensajeLlave: {fileID: 0}
@@ -13503,11 +13503,11 @@ MonoBehaviour:
   eventoEscapeExitoso:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e07f88905ec7e0a40835428d68161f7f, type: 2}
   eventoPuertaBloqueada:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a8430bb72115d5242b2480b19ad81882, type: 2}
   panelInteractuar: {fileID: 304879388}
   panelSinLlave: {fileID: 2078882234}
   panelVictoria: {fileID: 2016023210}

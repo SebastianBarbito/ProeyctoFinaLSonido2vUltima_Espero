@@ -208,6 +208,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Puerta_Bloqueada" ID="{8EB3BF7C-A57F-4254-9376-C28C628D0519}">
+					<ChildrenList>
+						<Action Name="" ID="{D8DADC0E-684D-4EDF-A989-C023041C364C}" ShortID="414956592">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Puerta_Bloqueada" ID="{5E52FE82-07D4-4F23-AC45-E502A40ACD08}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puerta_Desabloqueada" ID="{5F301B20-4AFD-465C-ACD6-D95A14EDA7F9}">
+					<ChildrenList>
+						<Action Name="" ID="{F59838B7-0D57-4628-ADC2-1D2AB43EA506}" ShortID="907938897">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Puerta_Desbloqueada" ID="{0C2DD973-580C-486A-B56C-6E10D312D8E8}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Llave_Encontrada" ID="{52E7C3AC-DEC5-4ABE-AEBF-DB0FE2DF8CBA}">
+					<ChildrenList>
+						<Action Name="" ID="{FC14CD40-CBE0-4415-B804-FBDC5AFF4ACF}" ShortID="986184052">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Llave_Encontrada" ID="{55E47768-BF14-4644-8C82-1C464ADEC629}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Camilla" ID="{53A6F27B-872C-4324-970E-3CE416E11F39}">
+					<ChildrenList>
+						<Action Name="" ID="{6B7963F1-54E2-42D6-BA76-E929050C19C3}" ShortID="528651675">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rueda_Oxidada" ID="{87643C6B-3908-4DFB-99A1-3B2EF0EB1468}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Silla_Ruedas" ID="{EC28FEF4-EFD2-4DA1-8BB7-82F44F00DADB}">
+					<ChildrenList>
+						<Action Name="" ID="{93D82DFC-4FE7-40B6-9FDA-E83700297E51}" ShortID="357773098">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Silla_Rueda" ID="{FA0D3D1D-48A9-45D7-8E78-FA7F90D5408E}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

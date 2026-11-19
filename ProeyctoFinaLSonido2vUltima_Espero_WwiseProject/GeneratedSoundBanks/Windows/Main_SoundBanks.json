@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{784C9A87-BC81-8B4D-A1BC-34950D78C455}",
+    "Hash": "{723FFE5C-2DB7-F232-99AA-2280C40FD4ED}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
@@ -48,6 +48,14 @@
       "CachePath": "9C/{9CE4A8BF-A2B5-6898-C739-FED4A6F1F0B2}.wem"
      },
      {
+      "Id": "124568255",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Camilla.wav",
+      "CachePath": "CC/{CC640C13-C171-7F8F-ABFF-4FA66921A2E2}.wem"
+     },
+     {
       "Id": "167666945",
       "Language": "SFX",
       "Streaming": "false",
@@ -64,12 +72,28 @@
       "CachePath": "AE/{AEA345E1-4ED4-9541-0F85-9E00BC9FAC6F}.wem"
      },
      {
+      "Id": "213031688",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Puerta_Bloqueada.wav",
+      "CachePath": "EB/{EBB2BC83-9A44-1835-7D13-C7D0394C8E9F}.wem"
+     },
+     {
       "Id": "238874393",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Primer ruido de elevador.wav",
       "CachePath": "8B/{8BCEB18B-CB86-7FBF-BDEF-50FD4B2D05FB}.wem"
+     },
+     {
+      "Id": "319897442",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Puerta_Desbloqueandose.wav",
+      "CachePath": "45/{454114CF-C86D-0309-B2AE-C87417BC94DF}.wem"
      },
      {
       "Id": "458566016",
@@ -120,6 +144,14 @@
       "CachePath": "AE/{AEE9FA21-A16E-D225-F4F6-ECCEC9C394A1}.wem"
      },
      {
+      "Id": "684139152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SillaDeRuedas.wav",
+      "CachePath": "F9/{F9FFA288-EEB0-9E7C-D56D-0D2701082555}.wem"
+     },
+     {
       "Id": "726894518",
       "Language": "SFX",
       "Streaming": "false",
@@ -134,6 +166,14 @@
       "Location": "Memory",
       "ShortName": "Apagar_Linterna.wav",
       "CachePath": "06/{06748C66-2902-5B6B-6632-47BF99A67CDA}.wem"
+     },
+     {
+      "Id": "785842707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Llave_Encontrada.wav",
+      "CachePath": "21/{216B9E82-D745-F736-5E44-6186242B3241}.wem"
      },
      {
       "Id": "803582596",
@@ -197,6 +237,20 @@
       ]
      },
      {
+      "Id": "3408996381",
+      "Name": "Play_Camilla",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Camilla",
+      "GUID": "{53A6F27B-872C-4324-970E-3CE416E11F39}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.05887",
+      "DurationMax": "1.05887",
+      "MediaRefs": [
+       {
+        "Id": "124568255"
+       }
+      ]
+     },
+     {
       "Id": "2176756322",
       "Name": "Play_Encender_Linterna",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Encender_Linterna",
@@ -215,7 +269,7 @@
       "Name": "Play_Falla_Ascensor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Falla_Ascensor",
       "GUID": "{DE0F08E4-4C56-4FD8-B702-7ECE2286C267}",
-      "MaxAttenuation": "6",
+      "MaxAttenuation": "3",
       "DurationType": "OneShot",
       "DurationMin": "2.80207",
       "DurationMax": "2.80207",
@@ -271,11 +325,25 @@
       "Name": "Play_Led",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Led",
       "GUID": "{4AA4AD53-9CEC-4C47-B3D1-52E04D4F7B90}",
-      "MaxAttenuation": "6",
+      "MaxAttenuation": "3",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "906966753"
+       }
+      ]
+     },
+     {
+      "Id": "566163868",
+      "Name": "Play_Llave_Encontrada",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Llave_Encontrada",
+      "GUID": "{52E7C3AC-DEC5-4ABE-AEBF-DB0FE2DF8CBA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "785842707"
        }
       ]
      },
@@ -317,11 +385,39 @@
       ]
      },
      {
+      "Id": "2270890718",
+      "Name": "Play_Puerta_Bloqueada",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Puerta_Bloqueada",
+      "GUID": "{8EB3BF7C-A57F-4254-9376-C28C628D0519}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7647708",
+      "DurationMax": "0.7647708",
+      "MediaRefs": [
+       {
+        "Id": "213031688"
+       }
+      ]
+     },
+     {
+      "Id": "978577829",
+      "Name": "Play_Puerta_Desabloqueada",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Puerta_Desabloqueada",
+      "GUID": "{5F301B20-4AFD-465C-ACD6-D95A14EDA7F9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "319897442"
+       }
+      ]
+     },
+     {
       "Id": "62066324",
       "Name": "Play_Reloj",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Reloj",
       "GUID": "{1BDA1F97-9C4D-4C0C-8E49-39AB69ADF866}",
-      "MaxAttenuation": "6",
+      "MaxAttenuation": "3",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -351,6 +447,20 @@
       ]
      },
      {
+      "Id": "4005120638",
+      "Name": "Play_Silla_Ruedas",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Silla_Ruedas",
+      "GUID": "{EC28FEF4-EFD2-4DA1-8BB7-82F44F00DADB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.66668",
+      "DurationMax": "0.66668",
+      "MediaRefs": [
+       {
+        "Id": "684139152"
+       }
+      ]
+     },
+     {
       "Id": "3077582168",
       "Name": "Stop_Apagar_Linterna",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Apagar_Linterna",
@@ -375,6 +485,6 @@
     ]
    }
   ],
-  "FileHash": "{6E98C1C3-6A82-AA1E-BA3D-19AAAE2994CB}"
+  "FileHash": "{E42B9242-9B42-0305-DBED-B53F64985AED}"
  }
 }
