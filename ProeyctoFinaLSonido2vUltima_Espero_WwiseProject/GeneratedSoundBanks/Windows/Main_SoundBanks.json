@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{2F8FE789-0606-6554-4430-E20227948125}",
+    "Hash": "{4277681E-EEC8-F1B7-B704-8476CBFBA413}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
@@ -24,6 +24,22 @@
       "CachePath": "08/{08E3B8DB-A974-AE82-0EAA-9D50D4C63A0E}.wem"
      },
      {
+      "Id": "118241064",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Alerta_MGS_09.wav",
+      "CachePath": "C1/{C1C51D42-AB75-7BD3-FBC9-C41E85FF91F8}.wem"
+     },
+     {
+      "Id": "120350223",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Pasos_Ladrillo_08.wav",
+      "CachePath": "9C/{9CE4A8BF-A2B5-6898-C739-FED4A6F1F0B2}.wem"
+     },
+     {
       "Id": "176513170",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,12 +48,36 @@
       "CachePath": "AE/{AEA345E1-4ED4-9541-0F85-9E00BC9FAC6F}.wem"
      },
      {
+      "Id": "238874393",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Primer ruido de elevador.wav",
+      "CachePath": "8B/{8BCEB18B-CB86-7FBF-BDEF-50FD4B2D05FB}.wem"
+     },
+     {
       "Id": "270132360",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Goteo_tuberias_14.wav",
       "CachePath": "0B/{0B86960D-A021-9EF3-4D34-9EAB80F78BE5}.wem"
+     },
+     {
+      "Id": "458566016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Pasos_Ladrillo_08.wav",
+      "CachePath": "62/{626F62D2-EFD6-8712-2990-1B16B2371383}.wem"
+     },
+     {
+      "Id": "473951343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Pasos_Ladrillo_08.wav",
+      "CachePath": "73/{7337BB73-A562-302A-50B9-86579A0AB53D}.wem"
      },
      {
       "Id": "544425411",
@@ -54,6 +94,14 @@
       "Location": "Memory",
       "ShortName": "violin.wav",
       "CachePath": "37/{37B1296E-CDAE-C07A-BDA1-39C497BECB23}.wem"
+     },
+     {
+      "Id": "574671294",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Pasos_Ladrillo_08.wav",
+      "CachePath": "5D/{5DB47B3B-6CD7-6F09-5E44-F2FB23EC336B}.wem"
      },
      {
       "Id": "596029218",
@@ -80,6 +128,14 @@
       "CachePath": "06/{06748C66-2902-5B6B-6632-47BF99A67CDA}.wem"
      },
      {
+      "Id": "803582596",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "electric-explosion.wav",
+      "CachePath": "FE/{FE234709-E185-9752-0EAC-56041A94FE2A}.wem"
+     },
+     {
       "Id": "895831658",
       "Language": "SFX",
       "Streaming": "false",
@@ -93,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Foco_Zumbido_05.wav",
-      "CachePath": "21/{21C33CF4-0E1B-550E-D71F-2142CEF5F177}.wem"
+      "CachePath": "A7/{A793FCF5-31CA-503D-F2DE-3269A0DE6F6E}.wem"
      },
      {
       "Id": "917981791",
@@ -106,11 +162,25 @@
     ],
     "Events": [
      {
+      "Id": "1321838970",
+      "Name": "Play_Advertencia",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Advertencia",
+      "GUID": "{61BDB570-145E-4A48-B48B-4FED879F0FAF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.78591",
+      "DurationMax": "0.78591",
+      "MediaRefs": [
+       {
+        "Id": "118241064"
+       }
+      ]
+     },
+     {
       "Id": "688593871",
       "Name": "Play_Caloventor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Caloventor",
       "GUID": "{317CA2DD-40AE-495B-8E0A-031562044088}",
-      "MaxAttenuation": "12",
+      "MaxAttenuation": "5",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -129,6 +199,21 @@
       "MediaRefs": [
        {
         "Id": "917981791"
+       }
+      ]
+     },
+     {
+      "Id": "1710759427",
+      "Name": "Play_Falla_Ascensor",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Falla_Ascensor",
+      "GUID": "{DE0F08E4-4C56-4FD8-B702-7ECE2286C267}",
+      "MaxAttenuation": "3.8999999",
+      "DurationType": "OneShot",
+      "DurationMin": "2.80207",
+      "DurationMax": "2.80207",
+      "MediaRefs": [
+       {
+        "Id": "803582596"
        }
       ]
      },
@@ -155,6 +240,21 @@
       "MediaRefs": [
        {
         "Id": "895831658"
+       }
+      ]
+     },
+     {
+      "Id": "1810150942",
+      "Name": "Play_Lamar_Ascensor",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lamar_Ascensor",
+      "GUID": "{F287DB01-43CF-441F-8ABF-3CE71397DE3F}",
+      "MaxAttenuation": "5",
+      "DurationType": "OneShot",
+      "DurationMin": "8.37704",
+      "DurationMax": "8.37704",
+      "MediaRefs": [
+       {
+        "Id": "238874393"
        }
       ]
      },
@@ -186,6 +286,29 @@
       ]
      },
      {
+      "Id": "4031831520",
+      "Name": "Play_Pasos",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pasos",
+      "GUID": "{D61CC46E-8499-4665-96F1-5ADA33524642}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.42031413",
+      "DurationMax": "0.84070814",
+      "MediaRefs": [
+       {
+        "Id": "120350223"
+       },
+       {
+        "Id": "458566016"
+       },
+       {
+        "Id": "473951343"
+       },
+       {
+        "Id": "574671294"
+       }
+      ]
+     },
+     {
       "Id": "2829283560",
       "Name": "Play_Remezcla_Vertical",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Remezcla_Vertical",
@@ -211,10 +334,9 @@
       "Name": "Stop_Apagar_Linterna",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Apagar_Linterna",
       "GUID": "{D8885296-D5A6-4E82-A3AC-B2A21691B046}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "0.19634",
+      "DurationMax": "0.19634",
       "MediaRefs": [
        {
         "Id": "769250874"
@@ -232,6 +354,6 @@
     ]
    }
   ],
-  "FileHash": "{19CB9242-9AF3-3B80-166E-AA176E31E7AE}"
+  "FileHash": "{CE2F32EC-D333-A361-ADEE-99DCA3C2EACC}"
  }
 }

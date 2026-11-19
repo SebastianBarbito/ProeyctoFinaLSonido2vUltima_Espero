@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce25b2d2d3189aa439726388743f26d1, type: 3}
+  m_Name: DE0F08E4-4C56-4FD8-B702-7ECE2286C267
+  m_EditorClassIdentifier: 
+  objectName: Play_Falla_Ascensor
+  id: 1710759427
+  guid: DE0F08E4-4C56-4FD8-B702-7ECE2286C267
+  IsInUserDefinedSoundBank: 1

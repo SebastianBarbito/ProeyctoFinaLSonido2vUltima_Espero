@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1640487806",
+    "Type": "Event",
+    "GUID": "{03B6A1F4-188D-4F7A-85F9-2B03B1247312}",
+    "Language": "SFX",
+    "Hash": "{6D21A013-14D9-34F7-B55C-A5D670C96DC6}",
+    "ObjectPath": "Play_Puerta_Abrir",
+    "ShortName": "Play_Puerta_Abrir",
+    "Path": "Event/Play_Puerta_Abrir.bnk",
+    "Media": [
+     {
+      "Id": "605793017",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Puerta_Interaccion_01.wav",
+      "Path": "Media/605793017.wem",
+      "CachePath": "B0/{B0E5E502-7B0D-7B2F-8644-A3F3732413D3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1640487806",
+      "Name": "Play_Puerta_Abrir",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Puerta_Abrir",
+      "GUID": "{03B6A1F4-188D-4F7A-85F9-2B03B1247312}",
+      "MaxAttenuation": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47723",
+      "DurationMax": "0.47723",
+      "MediaRefs": [
+       {
+        "Id": "605793017"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D070368D-C785-9D62-4651-6A5A2CF30EC2}"
+ }
+}

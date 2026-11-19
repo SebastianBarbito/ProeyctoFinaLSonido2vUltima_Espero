@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1640487806	Play_Puerta_Abrir			\Default Work Unit\Play_Puerta_Abrir	
+

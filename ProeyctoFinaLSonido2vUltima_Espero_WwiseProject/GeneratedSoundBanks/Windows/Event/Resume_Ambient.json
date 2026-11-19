@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "539592213",
+    "Type": "Event",
+    "GUID": "{1DAE0CC1-59E9-4E75-B58E-D69DD80FAF43}",
+    "Language": "SFX",
+    "Hash": "{BF9C3FAF-5D89-A58C-1D7F-83C9E418222B}",
+    "ObjectPath": "Resume_Ambient",
+    "ShortName": "Resume_Ambient",
+    "Path": "Event/Resume_Ambient.bnk",
+    "Media": [
+     {
+      "Id": "906966753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Foco_Zumbido_05.wav",
+      "Path": "Media/906966753.wem",
+      "CachePath": "A7/{A793FCF5-31CA-503D-F2DE-3269A0DE6F6E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "539592213",
+      "Name": "Resume_Ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Resume_Ambient",
+      "GUID": "{1DAE0CC1-59E9-4E75-B58E-D69DD80FAF43}",
+      "MaxAttenuation": "6",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "906966753"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1B0652F5-40A0-89B4-1EAF-ADEA73D2947E}"
+ }
+}

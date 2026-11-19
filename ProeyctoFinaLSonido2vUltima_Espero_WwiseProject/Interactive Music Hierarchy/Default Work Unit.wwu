@@ -6,6 +6,11 @@
 				<MusicPlaylistContainer Name="Remezcla_Vertical" ID="{23503CE2-83EF-454C-9EFB-A5B0F497A25A}" ShortID="80897607">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="60"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -445,6 +450,11 @@
 				<MusicSwitchContainer Name="Resecuenciacion_Horizontal" ID="{27F97980-2582-4A1A-A430-4181DEFC27F5}" ShortID="90631992">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="60"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

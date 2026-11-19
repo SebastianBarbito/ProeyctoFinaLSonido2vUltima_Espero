@@ -64,6 +64,9 @@
 				<Event Name="Play_Goteo" ID="{79FE2AFF-93AB-4230-A578-CBB34F559635}">
 					<ChildrenList>
 						<Action Name="" ID="{7A976E1C-39E8-4B05-815F-5E6871D7543E}" ShortID="219799671">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Goteo" ID="{23BA82D1-8FE3-453B-8B57-0BE8DDBAFCB5}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
@@ -97,12 +100,98 @@
 				<Event Name="Stop_Apagar_Linterna" ID="{D8885296-D5A6-4E82-A3AC-B2A21691B046}">
 					<ChildrenList>
 						<Action Name="" ID="{EFF51D09-15A9-4D01-929E-97E6371E26C9}" ShortID="192074990">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Apagar_Linterna" ID="{DBC5E340-1CA9-43EC-B875-52E3123D632C}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pasos" ID="{D61CC46E-8499-4665-96F1-5ADA33524642}">
+					<ChildrenList>
+						<Action Name="" ID="{43CA419C-2B48-42BD-BA66-AAA8A7239F68}" ShortID="397100935">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pasos_Ladrillo" ID="{F21CE5B0-27AE-42DC-ADCA-80CBE3F056EF}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puerta_Cerrar" ID="{3CA4E791-5B89-4582-A1D3-C20CF2D7BE30}">
+					<ChildrenList>
+						<Action Name="" ID="{2B071861-1D81-4D34-9895-C18D0FC7D0FD}" ShortID="992351238">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Puerta_Cerrar" ID="{A125EB81-F014-4342-BE01-03BDCE16797B}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puerta_Abrir" ID="{03B6A1F4-188D-4F7A-85F9-2B03B1247312}">
+					<ChildrenList>
+						<Action Name="" ID="{AF9586A0-FBCA-42D9-A732-7E7CC588D2FE}" ShortID="546092364">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Puerta_Abrir" ID="{0E202C08-9189-4EC5-871A-5661810FBBCD}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lamar_Ascensor" ID="{F287DB01-43CF-441F-8ABF-3CE71397DE3F}">
+					<ChildrenList>
+						<Action Name="" ID="{1CF3B066-D1ED-4BD6-9295-D88EBBB060E8}" ShortID="981285088">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Llamar_Ascensor" ID="{076A185B-766C-4A93-8314-9BF2CBB3AAF6}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Falla_Ascensor" ID="{DE0F08E4-4C56-4FD8-B702-7ECE2286C267}">
+					<ChildrenList>
+						<Action Name="" ID="{5AEAB87F-5A1B-4FC8-B778-670D6F8AA509}" ShortID="1067129899">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Falla_Ascensor" ID="{29A7C3D9-2F0B-4C76-81FF-169BCAD51828}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Advertencia" ID="{61BDB570-145E-4A48-B48B-4FED879F0FAF}">
+					<ChildrenList>
+						<Action Name="" ID="{70C0339A-B583-4BAC-840D-CE4C813128D7}" ShortID="287034102">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Advertencia" ID="{F7527B4F-BD3D-45D6-80EA-3ADA3F32A8B3}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiente" ID="{C4424003-81D5-4ADF-B03D-F70FEB69E9BC}">
+					<ChildrenList>
+						<Action Name="" ID="{C2E276F7-6E47-4536-AD15-E7C9FDE1921A}" ShortID="497019134">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Ambient" ID="{1DAE0CC1-59E9-4E75-B58E-D69DD80FAF43}">
+					<ChildrenList>
+						<Action Name="" ID="{83D47A4F-EE54-49B9-BBD8-4E63E2A60DD4}" ShortID="626251124">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SXF_Foco_Salida" ID="{9A5C221B-58A5-4F0B-AAD6-7C6C8577A3D0}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

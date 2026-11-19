@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2336636307	Play_Puerta_Cerrar			\Default Work Unit\Play_Puerta_Cerrar	
+

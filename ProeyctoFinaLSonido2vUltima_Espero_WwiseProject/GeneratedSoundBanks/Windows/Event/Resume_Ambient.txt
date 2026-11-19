@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	539592213	Resume_Ambient			\Default Work Unit\Resume_Ambient	
+
