@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	62066324	Play_Reloj			\Default Work Unit\Play_Reloj	
 	357313574	Play_Goteo_Techo			\Default Work Unit\Play_Goteo_Techo	
 	688593871	Play_Caloventor			\Default Work Unit\Play_Caloventor	
 	1321838970	Play_Advertencia			\Default Work Unit\Play_Advertencia	
@@ -16,12 +17,13 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2816995233	Distance_Volumen			\Default Work Unit\Distance_Volumen	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	54029900	SFX_Reloj	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\33\{33EF9109-50AF-7A24-E0DB-A807ABC5CCE1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Reloj		5789532
 	65666645	piano	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\08\{08E3B8DB-A974-AE82-0EAA-9D50D4C63A0E}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\piano		12288096
 	118241064	SFX_Advertencia	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\C1\{C1C51D42-AB75-7BD3-FBC9-C41E85FF91F8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Advertencia		138732
 	120350223	SFX_Pasos_Ladrillo_08	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\9C\{9CE4A8BF-A2B5-6898-C739-FED4A6F1F0B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos_Ladrillo\SFX_Pasos_Ladrillo_08		139364
+	167666945	SFX_Goteo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\D8\{D82C78C1-CE8A-0362-DA55-D466AC3EAFC2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo		1162292
 	176513170	bateria	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\AE\{AEA345E1-4ED4-9541-0F85-9E00BC9FAC6F}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\bateria		12288096
 	238874393	SFX_Llamar_Ascensor	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\8B\{8BCEB18B-CB86-7FBF-BDEF-50FD4B2D05FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Llamar_Ascensor		1608488
-	270132360	SFX_Goteo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\0B\{0B86960D-A021-9EF3-4D34-9EAB80F78BE5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo		1125528
 	458566016	SFX_Pasos_Ladrillo_02	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\62\{626F62D2-EFD6-8712-2990-1B16B2371383}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos_Ladrillo\SFX_Pasos_Ladrillo_02		148568
 	473951343	SFX_Pasos_Ladrillo_03	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\73\{7337BB73-A562-302A-50B9-86579A0AB53D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos_Ladrillo\SFX_Pasos_Ladrillo_03		74324
 	544425411	bajo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\59\{5907055E-DBF0-2074-B8A3-C00F477729A0}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\bajo		12288096
@@ -31,7 +33,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	726894518	Musica_Prueba	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\7C\{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica_Prueba		3792696
 	769250874	SFX_Apagar_Linterna	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\06\{06748C66-2902-5B6B-6632-47BF99A67CDA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Apagar_Linterna		37792
 	803582596	SFX_Falla_Ascensor	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\FE\{FE234709-E185-9752-0EAC-56041A94FE2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Falla_Ascensor		494384
-	895831658	SFX_Goteo_Techo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\57\{573D4029-C655-4CE2-C472-B9C727E5CF17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo_Techo		1260708
+	895831658	SFX_Goteo_Techo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\68\{68C364EF-9144-FB7E-D320-C006635FBC41}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo_Techo		233372
 	906966753	SXF_Foco_Salida	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\A7\{A793FCF5-31CA-503D-F2DE-3269A0DE6F6E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SXF_Foco_Salida		1682476
 	917981791	SFX_Prender_Linterna	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\3F\{3F7562F8-8751-47E4-A5A8-97C85173FD3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Prender_Linterna		93940
 

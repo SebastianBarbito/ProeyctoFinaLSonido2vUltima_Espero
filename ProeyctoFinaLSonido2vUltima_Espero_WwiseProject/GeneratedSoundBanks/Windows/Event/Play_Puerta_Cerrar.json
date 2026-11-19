@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3CA4E791-5B89-4582-A1D3-C20CF2D7BE30}",
     "Language": "SFX",
-    "Hash": "{8A77911F-6DD5-7381-1C7A-E14BC68840EB}",
+    "Hash": "{0BB42691-CD5E-FD07-F31E-A5714236B61D}",
     "ObjectPath": "Play_Puerta_Cerrar",
     "ShortName": "Play_Puerta_Cerrar",
     "Path": "Event/Play_Puerta_Cerrar.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{E2EF4F80-2D80-786B-3912-33D3511385FE}"
+  "FileHash": "{9DC657F9-D021-06E1-B4C4-8C56E019012C}"
  }
 }

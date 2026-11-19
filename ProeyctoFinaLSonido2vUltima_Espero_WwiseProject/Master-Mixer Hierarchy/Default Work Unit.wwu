@@ -9,6 +9,29 @@
 							<ObjectRef Name="System" ID="{2EC8B447-62A6-4DEA-8408-C7E94473E77B}" WorkUnitID="{0F31D664-0FBE-4490-B499-25301829EEC0}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{9056291F-5B24-4137-BDAD-6F0DC968D8E9}" ShortID="20915863">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Peak Limiter (Custom)" ID="{152FE01C-AEA3-495C-B4BC-8869F9E86977}" ShortID="601061751" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+														<PropertyList>
+															<Property Name="Ratio" Type="Real32" Value="15"/>
+															<Property Name="ReleaseTime" Type="Real32" Value="0.17"/>
+															<Property Name="Threshold" Type="Real32" Value="-2"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8c3392f78f39e44780fa3893fd99c421
     GuidInternal: 
-    m_lastTime: -8584066388722274349
+    m_lastTime: -8584065483809161123
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fc693bcaf409c44bac6fe881f71427bc
     GuidInternal: 
-    m_lastTime: -8584065590372459563
+    m_lastTime: -8584065483808938043
     List:
     - name: Main_SoundBanks
       guid: 6f0bf8d98bf022449770bd5e5c64dbff
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 49ed2acf65acc54c86f14bdd0db74f94
     GuidInternal: 
-    m_lastTime: -8584065576746687560
+    m_lastTime: -8584065483809051380
     List:
     - name: Play_Advertencia
       guid: 70b5bd615e14484ab48b4fed879f0faf
@@ -161,7 +161,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e4080fde564cd84fb7027ece2286c267
       Path: Events\Default Work Unit\Play_Falla_Ascensor
-      maxAttenuation: 3.8999999
+      maxAttenuation: 6
       maxDuration: 2.80207
       minDuration: 2.80207
     - name: Play_Goteo
@@ -300,6 +300,23 @@ MonoBehaviour:
       maxAttenuation: 6
       maxDuration: 0.35788
       minDuration: 0.35788
+    - name: Play_Reloj
+      guid: 971fda1b4d9c0c4c8e4939ab69adf866
+      id: 62066324
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Reloj
+        ObjectType: 3
+        guid: 971fda1b4d9c0c4c8e4939ab69adf866
+      Path: Events\Default Work Unit\Play_Reloj
+      maxAttenuation: 6
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Remezcla_Vertical
       guid: 2251d130b3b4664a86d48835bd023060
       id: 2829283560
@@ -538,7 +555,7 @@ MonoBehaviour:
     m_lastTime: -8584066388722031106
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000c00000011000000120000001600000017000000320000003300000034000000390000003a0000003c0000003d0000004f000000500000005300000054000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000c000000110000001200000016000000170000003000000031000000320000003300000034000000390000003a0000003c0000003d0000004f000000500000005300000054000000
   AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 0

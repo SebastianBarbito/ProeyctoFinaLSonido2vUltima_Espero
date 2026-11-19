@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{4277681E-EEC8-F1B7-B704-8476CBFBA413}",
+    "Hash": "{784C9A87-BC81-8B4D-A1BC-34950D78C455}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
     "Media": [
+     {
+      "Id": "54029900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tiktak_reloj_15.wav",
+      "CachePath": "33/{33EF9109-50AF-7A24-E0DB-A807ABC5CCE1}.wem"
+     },
      {
       "Id": "65666645",
       "Language": "SFX",
@@ -40,6 +48,14 @@
       "CachePath": "9C/{9CE4A8BF-A2B5-6898-C739-FED4A6F1F0B2}.wem"
      },
      {
+      "Id": "167666945",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Goteo_tuberias_14 (2).wav",
+      "CachePath": "D8/{D82C78C1-CE8A-0362-DA55-D466AC3EAFC2}.wem"
+     },
+     {
       "Id": "176513170",
       "Language": "SFX",
       "Streaming": "false",
@@ -54,14 +70,6 @@
       "Location": "Memory",
       "ShortName": "Primer ruido de elevador.wav",
       "CachePath": "8B/{8BCEB18B-CB86-7FBF-BDEF-50FD4B2D05FB}.wem"
-     },
-     {
-      "Id": "270132360",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_Goteo_tuberias_14.wav",
-      "CachePath": "0B/{0B86960D-A021-9EF3-4D34-9EAB80F78BE5}.wem"
      },
      {
       "Id": "458566016",
@@ -141,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_ContenedorAgua_Golpe_03.wav",
-      "CachePath": "57/{573D4029-C655-4CE2-C472-B9C727E5CF17}.wem"
+      "CachePath": "68/{68C364EF-9144-FB7E-D320-C006635FBC41}.wem"
      },
      {
       "Id": "906966753",
@@ -207,7 +215,7 @@
       "Name": "Play_Falla_Ascensor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Falla_Ascensor",
       "GUID": "{DE0F08E4-4C56-4FD8-B702-7ECE2286C267}",
-      "MaxAttenuation": "3.8999999",
+      "MaxAttenuation": "6",
       "DurationType": "OneShot",
       "DurationMin": "2.80207",
       "DurationMax": "2.80207",
@@ -226,7 +234,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "270132360"
+        "Id": "167666945"
        }
       ]
      },
@@ -309,6 +317,19 @@
       ]
      },
      {
+      "Id": "62066324",
+      "Name": "Play_Reloj",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Reloj",
+      "GUID": "{1BDA1F97-9C4D-4C0C-8E49-39AB69ADF866}",
+      "MaxAttenuation": "6",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "54029900"
+       }
+      ]
+     },
+     {
       "Id": "2829283560",
       "Name": "Play_Remezcla_Vertical",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Remezcla_Vertical",
@@ -354,6 +375,6 @@
     ]
    }
   ],
-  "FileHash": "{CE2F32EC-D333-A361-ADEE-99DCA3C2EACC}"
+  "FileHash": "{6E98C1C3-6A82-AA1E-BA3D-19AAAE2994CB}"
  }
 }

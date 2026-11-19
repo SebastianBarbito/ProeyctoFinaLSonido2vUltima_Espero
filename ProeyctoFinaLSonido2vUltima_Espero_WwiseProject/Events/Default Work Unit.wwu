@@ -197,6 +197,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Reloj" ID="{1BDA1F97-9C4D-4C0C-8E49-39AB69ADF866}">
+					<ChildrenList>
+						<Action Name="" ID="{86EC2A5A-988E-4620-BE85-FF972DE19E89}" ShortID="125746374">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Reloj" ID="{AC2A56BE-71B1-413B-95FD-6781932A9F99}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

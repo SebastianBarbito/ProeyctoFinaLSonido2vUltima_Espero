@@ -25,6 +25,7 @@ namespace AK
         static const AkUniqueID PLAY_PASOS = 4031831520U;
         static const AkUniqueID PLAY_PUERTA_ABRIR = 1640487806U;
         static const AkUniqueID PLAY_PUERTA_CERRAR = 2336636307U;
+        static const AkUniqueID PLAY_RELOJ = 62066324U;
         static const AkUniqueID PLAY_REMEZCLA_VERTICAL = 2829283560U;
         static const AkUniqueID PLAY_RESECUENCIACION_HORIZONTAL = 1915193845U;
         static const AkUniqueID RESUME_AMBIENT = 539592213U;

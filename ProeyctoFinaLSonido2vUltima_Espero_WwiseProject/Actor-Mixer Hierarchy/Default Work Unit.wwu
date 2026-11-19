@@ -143,9 +143,22 @@
 								<MediaID ID="270132360"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="SFX_Goteo_tuberias_14 (2)" ID="{95EF05F6-4F29-4919-ADE4-0E5AE5397F99}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.9923"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.18306"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.05311"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Goteo_tuberias_14 (2).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="167666945"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="SFX_Goteo_tuberias_14" ID="{C548BFEE-FBEB-4E90-BFEF-49CBBB3C57E6}" Platform="Linked"/>
+						<ActiveSource Name="SFX_Goteo_tuberias_14 (2)" ID="{95EF05F6-4F29-4919-ADE4-0E5AE5397F99}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SFX_Goteo_Techo" ID="{8F039435-B2D2-4F20-BAC9-9949B4CE741C}" ShortID="209422090">
@@ -172,10 +185,11 @@
 					<ChildrenList>
 						<AudioFileSource Name="SFX_ContenedorAgua_Golpe_03" ID="{818F5BC6-48B0-4232-9A84-1F0C7CB85218}">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.56768"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.4431"/>
 								<Property Name="FadeOutDuration" Type="Real64" Value="0.76802"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="7.14632"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.93441"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.25683"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SFX_ContenedorAgua_Golpe_03.wav</AudioFile>
@@ -189,6 +203,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SFX_Prender_Linterna" ID="{F1DD922D-3EEA-4DAE-8042-BFD6C56811C9}" ShortID="42952671">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -218,6 +239,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="SFX_Apagar_Linterna" ID="{DBC5E340-1CA9-43EC-B875-52E3123D632C}" ShortID="267906185">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -251,6 +279,11 @@
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
 								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -404,6 +437,11 @@
 				<Sound Name="SFX_Puerta_Abrir" ID="{0E202C08-9189-4EC5-871A-5661810FBBCD}" ShortID="371759017">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -439,6 +477,11 @@
 				<Sound Name="SFX_Puerta_Cerrar" ID="{A125EB81-F014-4342-BE01-03BDCE16797B}" ShortID="897034366">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -474,6 +517,11 @@
 				<Sound Name="SFX_Llamar_Ascensor" ID="{076A185B-766C-4A93-8314-9BF2CBB3AAF6}" ShortID="778795872">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -579,6 +627,51 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_Alerta_MGS_09" ID="{A46E2E2A-3B7B-4998-961E-364C752EBB5F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Reloj" ID="{AC2A56BE-71B1-413B-95FD-6781932A9F99}" ShortID="757126470">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>370</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_tiktak_reloj_15" ID="{4150DE08-1425-441A-AF3A-DD039DC755DC}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="6.22209"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="3.82899"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="30.15332"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_tiktak_reloj_15.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="54029900"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_tiktak_reloj_15" ID="{4150DE08-1425-441A-AF3A-DD039DC755DC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
