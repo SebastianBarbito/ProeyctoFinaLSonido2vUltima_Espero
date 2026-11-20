@@ -28,12 +28,14 @@
 				<Sound Name="SFX_Caloventor" ID="{EE47E620-9813-4CB6-864C-9607E457AE35}" ShortID="466395517">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2.5"/>
 						<Property Name="CenterPercentage" Type="int32">
 							<ValueList>
 								<Value>39</Value>
 							</ValueList>
 						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-4</Value>
@@ -72,12 +74,14 @@
 				<Sound Name="SXF_Foco_Salida" ID="{9A5C221B-58A5-4F0B-AAD6-7C6C8577A3D0}" ShortID="671437141">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2.2"/>
 						<Property Name="CenterPercentage" Type="int32">
 							<ValueList>
 								<Value>42</Value>
 							</ValueList>
 						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>
@@ -86,7 +90,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Foco_Led" ID="{BB0DEEF1-02F6-429A-8AE3-CE9DD6ABEFE1}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -456,12 +460,12 @@
 				</RandomSequenceContainer>
 				<Sound Name="SFX_Puerta_Abrir" ID="{0E202C08-9189-4EC5-871A-5661810FBBCD}" ShortID="371759017">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="CenterPercentage" Type="int32">
 							<ValueList>
 								<Value>100</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="4"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-5</Value>
@@ -469,9 +473,6 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Puerta" ID="{1D369788-8B5F-4895-8B2F-9865EC647982}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
-						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
 						</Reference>
@@ -501,12 +502,12 @@
 				</Sound>
 				<Sound Name="SFX_Puerta_Cerrar" ID="{A125EB81-F014-4342-BE01-03BDCE16797B}" ShortID="897034366">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="CenterPercentage" Type="int32">
 							<ValueList>
 								<Value>20</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="5"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>
@@ -514,9 +515,6 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Puerta" ID="{1D369788-8B5F-4895-8B2F-9865EC647982}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
-						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
 						</Reference>
@@ -546,7 +544,7 @@
 				</Sound>
 				<Sound Name="SFX_Llamar_Ascensor" ID="{076A185B-766C-4A93-8314-9BF2CBB3AAF6}" ShortID="778795872">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="5"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-10</Value>
@@ -554,9 +552,6 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Ascensor" ID="{5A21F8BB-5EF2-4C60-A443-57E0888AA79A}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
-						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
 						</Reference>
@@ -587,6 +582,8 @@
 				<Sound Name="SFX_Falla_Ascensor" ID="{29A7C3D9-2F0B-4C76-81FF-169BCAD51828}" ShortID="166701268">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.9"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-27</Value>
@@ -595,7 +592,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Ascensor" ID="{5A21F8BB-5EF2-4C60-A443-57E0888AA79A}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>

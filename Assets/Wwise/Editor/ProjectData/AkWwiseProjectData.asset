@@ -141,7 +141,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: dda27c31ae405b498e0a031562044088
       Path: Events\Default Work Unit\Play_Caloventor
-      maxAttenuation: 5.3999996
+      maxAttenuation: 6
       maxDuration: 0
       minDuration: 0
     - name: Play_Camilla
@@ -277,7 +277,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 53ada44aec9c474cb3d152e04d4f7b90
       Path: Events\Default Work Unit\Play_Led
-      maxAttenuation: 7.2
+      maxAttenuation: 6.6000004
       maxDuration: 0
       minDuration: 0
     - name: Play_Llave_Encontrada
@@ -617,7 +617,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c10cae1de959754eb58ed69dd80faf43
       Path: Events\Default Work Unit\Resume_Ambient
-      maxAttenuation: 7.2
+      maxAttenuation: 6.6000004
       maxDuration: 0
       minDuration: 0
     - name: Stop_Ambiente
