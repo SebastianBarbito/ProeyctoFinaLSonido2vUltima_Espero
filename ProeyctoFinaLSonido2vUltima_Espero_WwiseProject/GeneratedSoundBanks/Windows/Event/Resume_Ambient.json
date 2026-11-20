@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1DAE0CC1-59E9-4E75-B58E-D69DD80FAF43}",
     "Language": "SFX",
-    "Hash": "{2DD19D46-D83C-CBCF-08EC-8B0DE6A71F2D}",
+    "Hash": "{D058BF0E-00ED-022E-4926-76B4AF2E062C}",
     "ObjectPath": "Resume_Ambient",
     "ShortName": "Resume_Ambient",
     "Path": "Event/Resume_Ambient.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{A5E5F8D3-712F-CA00-1DA5-A33F84D6FF8A}"
+  "FileHash": "{2D9AAC81-F825-FB70-E001-720D2BF624B5}"
  }
 }

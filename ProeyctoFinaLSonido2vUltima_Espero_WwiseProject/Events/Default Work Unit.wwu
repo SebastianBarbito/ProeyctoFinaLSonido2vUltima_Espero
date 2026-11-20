@@ -351,6 +351,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Hojas_Volando" ID="{F28E2FC1-CCA2-40C4-984E-A700ED933FF1}">
+					<ChildrenList>
+						<Action Name="" ID="{297A0933-D49B-4DDD-A4D9-5D2C1F4490A6}" ShortID="876877171">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hojas_Volando" ID="{046FA7FD-98D1-40F6-8D0A-1C6D813A67F6}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

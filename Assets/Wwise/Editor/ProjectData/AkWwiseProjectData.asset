@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 49ed2acf65acc54c86f14bdd0db74f94
     GuidInternal: 
-    m_lastTime: -8584064820144215472
+    m_lastTime: -8584064609706169882
     List:
     - name: Play_Advertencia
       guid: 70b5bd615e14484ab48b4fed879f0faf
@@ -192,7 +192,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e4080fde564cd84fb7027ece2286c267
       Path: Events\Default Work Unit\Play_Falla_Ascensor
-      maxAttenuation: 3
+      maxAttenuation: 2
       maxDuration: 2.80207
       minDuration: 2.80207
     - name: Play_Goteo
@@ -229,6 +229,23 @@ MonoBehaviour:
       maxAttenuation: 4
       maxDuration: 0
       minDuration: 0
+    - name: Play_Hojas_Volando
+      guid: c12f8ef2a2ccc440984ea700ed933ff1
+      id: 862152273
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Hojas_Volando
+        ObjectType: 3
+        guid: c12f8ef2a2ccc440984ea700ed933ff1
+      Path: Events\Default Work Unit\Play_Hojas_Volando
+      maxAttenuation: 0
+      maxDuration: 1.9985
+      minDuration: 0.99947
     - name: Play_Lamar_Ascensor
       guid: 01db87f2cf431f448abf3ce71397de3f
       id: 1810150942
@@ -243,7 +260,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 01db87f2cf431f448abf3ce71397de3f
       Path: Events\Default Work Unit\Play_Lamar_Ascensor
-      maxAttenuation: 5
+      maxAttenuation: 2
       maxDuration: 8.37704
       minDuration: 8.37704
     - name: Play_Led
@@ -260,7 +277,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 53ada44aec9c474cb3d152e04d4f7b90
       Path: Events\Default Work Unit\Play_Led
-      maxAttenuation: 3
+      maxAttenuation: 4
       maxDuration: 0
       minDuration: 0
     - name: Play_Llave_Encontrada
@@ -328,7 +345,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f4a1b6038d187a4f85f92b03b1247312
       Path: Events\Default Work Unit\Play_Puerta_Abrir
-      maxAttenuation: 4
+      maxAttenuation: 3
       maxDuration: 0.47723
       minDuration: 0.47723
     - name: Play_Puerta_Bloqueada
@@ -362,7 +379,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 91e7a43c895b8245a1d3c20cf2d7be30
       Path: Events\Default Work Unit\Play_Puerta_Cerrar
-      maxAttenuation: 4
+      maxAttenuation: 3
       maxDuration: 0.35788
       minDuration: 0.35788
     - name: Play_Puerta_Desabloqueada
@@ -600,7 +617,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c10cae1de959754eb58ed69dd80faf43
       Path: Events\Default Work Unit\Resume_Ambient
-      maxAttenuation: 3
+      maxAttenuation: 4
       maxDuration: 0
       minDuration: 0
     - name: Stop_Ambiente

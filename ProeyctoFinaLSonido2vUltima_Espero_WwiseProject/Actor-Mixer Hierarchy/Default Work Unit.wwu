@@ -28,6 +28,11 @@
 				<Sound Name="SFX_Caloventor" ID="{EE47E620-9813-4CB6-864C-9607E457AE35}" ShortID="466395517">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>39</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -67,6 +72,11 @@
 				<Sound Name="SXF_Foco_Salida" ID="{9A5C221B-58A5-4F0B-AAD6-7C6C8577A3D0}" ShortID="671437141">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>42</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -76,7 +86,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+							<ObjectRef Name="Foco_Led" ID="{BB0DEEF1-02F6-429A-8AE3-CE9DD6ABEFE1}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -111,6 +121,11 @@
 				<Sound Name="SFX_Goteo" ID="{23BA82D1-8FE3-453B-8B57-0BE8DDBAFCB5}" ShortID="875655871">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>80</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -164,6 +179,11 @@
 				<Sound Name="SFX_Goteo_Techo" ID="{8F039435-B2D2-4F20-BAC9-9949B4CE741C}" ShortID="209422090">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>24</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -437,15 +457,20 @@
 				<Sound Name="SFX_Puerta_Abrir" ID="{0E202C08-9189-4EC5-871A-5661810FBBCD}" ShortID="371759017">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Goteo" ID="{2C079284-26AF-4DB6-BBC5-9372E92CFB60}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+							<ObjectRef Name="Puerta" ID="{1D369788-8B5F-4895-8B2F-9865EC647982}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -477,15 +502,20 @@
 				<Sound Name="SFX_Puerta_Cerrar" ID="{A125EB81-F014-4342-BE01-03BDCE16797B}" ShortID="897034366">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+							<ObjectRef Name="Puerta" ID="{1D369788-8B5F-4895-8B2F-9865EC647982}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -519,13 +549,13 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Ventilacion" ID="{544CB0AE-FDB7-4DA0-902C-B025ACB37356}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+							<ObjectRef Name="Ascensor" ID="{5A21F8BB-5EF2-4C60-A443-57E0888AA79A}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -559,13 +589,13 @@
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-20</Value>
+								<Value>-27</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+							<ObjectRef Name="Ascensor" ID="{5A21F8BB-5EF2-4C60-A443-57E0888AA79A}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -598,7 +628,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -632,21 +662,21 @@
 				<Sound Name="SFX_Reloj" ID="{AC2A56BE-71B1-413B-95FD-6781932A9F99}" ShortID="757126470">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Pitch" Type="int32">
+						<Property Name="CenterPercentage" Type="int32">
 							<ValueList>
-								<Value>370</Value>
+								<Value>36</Value>
 							</ValueList>
 						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
+							<ObjectRef Name="Goteo" ID="{2C079284-26AF-4DB6-BBC5-9372E92CFB60}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -798,6 +828,11 @@
 				</Sound>
 				<Sound Name="SFX_Silla_Rueda" ID="{FA0D3D1D-48A9-45D7-8E78-FA7F90D5408E}" ShortID="409631056">
 					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>23</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>
@@ -1256,6 +1291,154 @@
 						<ActiveSource Name="Escape_Exito" ID="{F1DA5532-7244-43BE-966C-BD5CCB1CBCA2}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Hojas_Volando" ID="{046FA7FD-98D1-40F6-8D0A-1C6D813A67F6}" ShortID="180608898">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FXS_hojas_volando_16" ID="{DB0DF118-42E5-4C42-B92F-B9F46897392B}" ShortID="102461383">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FXS_hojas_volando_16" ID="{2A6DB582-99FC-421A-A7BD-8C53DE213D4F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="6.44076"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.43926"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FXS_hojas_volando_16.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="760195314"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FXS_hojas_volando_16" ID="{2A6DB582-99FC-421A-A7BD-8C53DE213D4F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FXS_hojas_volando_01" ID="{DA0CC2E2-5BEA-4846-BD17-631AE13A80FA}" ShortID="246893296">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FXS_hojas_volando_16" ID="{DC0419E0-9552-4570-A34B-D5A973AE62D1}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="14.54709"/>
+										<Property Name="TrimEnd" Type="Real64" Value="16.32387"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FXS_hojas_volando_16.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="306077009"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FXS_hojas_volando_16" ID="{DC0419E0-9552-4570-A34B-D5A973AE62D1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FXS_hojas_volando_02" ID="{309CAF1A-385C-45C6-8E5A-A248C6B1228A}" ShortID="315324587">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FXS_hojas_volando_16" ID="{3B982DFE-1BEA-4C05-8CAC-38B644899B6D}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="30.20457"/>
+										<Property Name="TrimEnd" Type="Real64" Value="31.42603"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FXS_hojas_volando_16.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="775087067"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FXS_hojas_volando_16" ID="{3B982DFE-1BEA-4C05-8CAC-38B644899B6D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FXS_hojas_volando_03" ID="{4635B97A-D20A-4371-9D79-2800051D4B41}" ShortID="721805814">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F792338C-398F-47E4-80FA-3893FD99C421}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FXS_hojas_volando_16" ID="{2017FAAC-E0F3-457A-A7E4-8365E7F783F4}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="38.08874"/>
+										<Property Name="TrimEnd" Type="Real64" Value="39.08821"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FXS_hojas_volando_16.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="825447989"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FXS_hojas_volando_16" ID="{2017FAAC-E0F3-457A-A7E4-8365E7F783F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

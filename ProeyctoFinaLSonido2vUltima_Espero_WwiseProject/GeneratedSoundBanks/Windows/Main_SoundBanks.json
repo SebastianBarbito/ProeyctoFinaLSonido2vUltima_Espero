@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{58B3D654-7402-2644-E3AA-C005101870CB}",
+    "Hash": "{D78CE04B-742F-0FA2-323B-2C51FC7F5DC9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
@@ -102,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "Primer ruido de elevador.wav",
       "CachePath": "8B/{8BCEB18B-CB86-7FBF-BDEF-50FD4B2D05FB}.wem"
+     },
+     {
+      "Id": "306077009",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FXS_hojas_volando_16.wav",
+      "CachePath": "8B/{8BC26D3B-1EDC-A62D-A57B-01317C974EDF}.wem"
      },
      {
       "Id": "319897442",
@@ -224,12 +232,28 @@
       "CachePath": "7C/{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem"
      },
      {
+      "Id": "760195314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FXS_hojas_volando_16.wav",
+      "CachePath": "37/{370F539F-697F-B243-795A-54485272A4C1}.wem"
+     },
+     {
       "Id": "769250874",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Apagar_Linterna.wav",
       "CachePath": "06/{06748C66-2902-5B6B-6632-47BF99A67CDA}.wem"
+     },
+     {
+      "Id": "775087067",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FXS_hojas_volando_16.wav",
+      "CachePath": "47/{47DBF9AD-1D7A-F541-7086-A9D2CD9E86EF}.wem"
      },
      {
       "Id": "785842707",
@@ -246,6 +270,14 @@
       "Location": "Memory",
       "ShortName": "electric-explosion.wav",
       "CachePath": "FE/{FE234709-E185-9752-0EAC-56041A94FE2A}.wem"
+     },
+     {
+      "Id": "825447989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FXS_hojas_volando_16.wav",
+      "CachePath": "D8/{D8FFB993-7958-B0B2-3DD5-E6404296C9ED}.wem"
      },
      {
       "Id": "856407277",
@@ -365,7 +397,7 @@
       "Name": "Play_Falla_Ascensor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Falla_Ascensor",
       "GUID": "{DE0F08E4-4C56-4FD8-B702-7ECE2286C267}",
-      "MaxAttenuation": "3",
+      "MaxAttenuation": "2",
       "DurationType": "OneShot",
       "DurationMin": "2.80207",
       "DurationMax": "2.80207",
@@ -402,11 +434,34 @@
       ]
      },
      {
+      "Id": "862152273",
+      "Name": "Play_Hojas_Volando",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hojas_Volando",
+      "GUID": "{F28E2FC1-CCA2-40C4-984E-A700ED933FF1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.99947",
+      "DurationMax": "1.9985",
+      "MediaRefs": [
+       {
+        "Id": "306077009"
+       },
+       {
+        "Id": "760195314"
+       },
+       {
+        "Id": "775087067"
+       },
+       {
+        "Id": "825447989"
+       }
+      ]
+     },
+     {
       "Id": "1810150942",
       "Name": "Play_Lamar_Ascensor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Lamar_Ascensor",
       "GUID": "{F287DB01-43CF-441F-8ABF-3CE71397DE3F}",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "2",
       "DurationType": "OneShot",
       "DurationMin": "8.37704",
       "DurationMax": "8.37704",
@@ -705,6 +760,6 @@
     ]
    }
   ],
-  "FileHash": "{D591B2FA-7ACE-12FA-9227-72FCE3C7C902}"
+  "FileHash": "{87CF7E32-0B56-344E-8ED7-EDDF3738A61F}"
  }
 }

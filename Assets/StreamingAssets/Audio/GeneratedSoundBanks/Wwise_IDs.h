@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID PLAY_FALLA_ASCENSOR = 1710759427U;
         static const AkUniqueID PLAY_GOTEO = 2813165888U;
         static const AkUniqueID PLAY_GOTEO_TECHO = 357313574U;
+        static const AkUniqueID PLAY_HOJAS_VOLANDO = 862152273U;
         static const AkUniqueID PLAY_LAMAR_ASCENSOR = 1810150942U;
         static const AkUniqueID PLAY_LED = 2624422069U;
         static const AkUniqueID PLAY_LLAVE_ENCONTRADA = 566163868U;
