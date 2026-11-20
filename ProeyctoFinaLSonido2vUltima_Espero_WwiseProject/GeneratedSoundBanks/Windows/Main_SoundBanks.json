@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{D78CE04B-742F-0FA2-323B-2C51FC7F5DC9}",
+    "Hash": "{68EBF2C3-CDA0-32CC-F651-8F71D5E1BF7A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
@@ -356,7 +356,7 @@
       "Name": "Play_Caloventor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Caloventor",
       "GUID": "{317CA2DD-40AE-495B-8E0A-031562044088}",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "3",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -760,6 +760,6 @@
     ]
    }
   ],
-  "FileHash": "{87CF7E32-0B56-344E-8ED7-EDDF3738A61F}"
+  "FileHash": "{250EC59D-56CE-6440-745D-78741B20C613}"
  }
 }

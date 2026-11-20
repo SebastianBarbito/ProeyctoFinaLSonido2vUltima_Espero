@@ -141,7 +141,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: dda27c31ae405b498e0a031562044088
       Path: Events\Default Work Unit\Play_Caloventor
-      maxAttenuation: 5
+      maxAttenuation: 3
       maxDuration: 0
       minDuration: 0
     - name: Play_Camilla
