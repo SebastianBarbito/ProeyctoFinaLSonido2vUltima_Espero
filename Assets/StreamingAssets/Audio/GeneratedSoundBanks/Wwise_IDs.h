@@ -67,6 +67,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCE_VOLUMEN = 2816995233U;
+        static const AkUniqueID RTPC_VOLUMENPROXIMIDAD = 2390120096U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

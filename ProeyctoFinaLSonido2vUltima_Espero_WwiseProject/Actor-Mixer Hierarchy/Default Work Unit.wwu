@@ -28,12 +28,7 @@
 				<Sound Name="SFX_Caloventor" ID="{EE47E620-9813-4CB6-864C-9607E457AE35}" ShortID="466395517">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2.5"/>
-						<Property Name="CenterPercentage" Type="int32">
-							<ValueList>
-								<Value>39</Value>
-							</ValueList>
-						</Property>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.5"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 						<Property Name="Volume" Type="Real64">
@@ -67,6 +62,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{18FAF73C-60AD-4CBE-A4EB-FD2352122227}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-0.337268128161888"/>
+								<Property Name="PanY" Type="Real64" Value="75.2260397830018"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_Ventilacion_Habitacion1_13" ID="{5AFBA426-8F67-48C4-BED7-E600AAC28408}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -74,13 +77,9 @@
 				<Sound Name="SXF_Foco_Salida" ID="{9A5C221B-58A5-4F0B-AAD6-7C6C8577A3D0}" ShortID="671437141">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2.2"/>
-						<Property Name="CenterPercentage" Type="int32">
-							<ValueList>
-								<Value>42</Value>
-							</ValueList>
-						</Property>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.5"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -118,6 +117,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{E4CA7C13-205A-43E8-866F-ABC4F2E1700D}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="1.66533453693773E-16"/>
+								<Property Name="PanY" Type="Real64" Value="-91.500904159132"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_Foco_Zumbido_05" ID="{DE12CE0A-584F-4EE1-81FE-022CEB1FEB5E}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -131,6 +138,7 @@
 							</ValueList>
 						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
@@ -176,6 +184,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{06793033-4877-42DE-A3DD-62B9A7A08C6C}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="91.06239460371"/>
+								<Property Name="PanY" Type="Real64" Value="1.11022302462516E-16"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_Goteo_tuberias_14 (2)" ID="{95EF05F6-4F29-4919-ADE4-0E5AE5397F99}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -189,6 +205,7 @@
 							</ValueList>
 						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
@@ -222,6 +239,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{E74CBCCC-FDBF-490C-8550-C5D15727C716}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="0.337268128161889"/>
+								<Property Name="PanY" Type="Real64" Value="-67.631103074141"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_ContenedorAgua_Golpe_03" ID="{818F5BC6-48B0-4232-9A84-1F0C7CB85218}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -581,7 +606,6 @@
 				</Sound>
 				<Sound Name="SFX_Falla_Ascensor" ID="{29A7C3D9-2F0B-4C76-81FF-169BCAD51828}" ShortID="166701268">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.9"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="2"/>
 						<Property Name="Volume" Type="Real64">
@@ -591,9 +615,6 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="LEd" ID="{A0373EDB-2765-45A8-972E-FC1D12F70D9D}" WorkUnitID="{A39BE3DD-04B5-4675-9C2D-30EDC77DDA98}"/>
-						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
 						</Reference>
@@ -665,6 +686,7 @@
 							</ValueList>
 						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>6</Value>
@@ -697,6 +719,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{4267331E-3CF9-4314-B388-F1D720E372A0}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-79.9325463743676"/>
+								<Property Name="PanY" Type="Real64" Value="-0.723327305605765"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_tiktak_reloj_15" ID="{4150DE08-1425-441A-AF3A-DD039DC755DC}" Platform="Linked"/>
 					</ActiveSourceList>

@@ -468,64 +468,32 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3116392934721534162, guid: 296b418466748244ab98b7227a665bcb, type: 3}
---- !u!114 &106887466
-MonoBehaviour:
+--- !u!65 &106887471
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106887453}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f77c020bd07d8a4db8b9340245ec05d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 540a18f26cdc08843a5093b379b08926, type: 2}
-  useCallbacks: 0
-  stopSoundOnDisable: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &106887467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106887453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f2c8a590acd38469985bc3961e47c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
+  serializedVersion: 3
+  m_Size: {x: 0.88233376, y: 1.8207581, z: 0.68}
+  m_Center: {x: 0.44758368, y: -0.81039864, z: 0.34000483}
 --- !u!1 &107764692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5393797005644580503, guid: 296b418466748244ab98b7227a665bcb, type: 3}
@@ -1138,10 +1106,10 @@ PrefabInstance:
       addedObject: {fileID: 466755765}
     - targetCorrespondingSourceObject: {fileID: 7139296557228164521, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 466755764}
+      addedObject: {fileID: 466755770}
     - targetCorrespondingSourceObject: {fileID: 7139296557228164521, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 466755763}
+      addedObject: {fileID: 466755769}
     - targetCorrespondingSourceObject: {fileID: 6064885087498595540, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 697171157}
@@ -1172,12 +1140,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7720649774600108251, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 592984737}
-    - targetCorrespondingSourceObject: {fileID: 7720649774600108251, guid: 296b418466748244ab98b7227a665bcb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 592984742}
-    - targetCorrespondingSourceObject: {fileID: 7720649774600108251, guid: 296b418466748244ab98b7227a665bcb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 592984741}
     - targetCorrespondingSourceObject: {fileID: -8516495807954145987, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1379907546}
@@ -1186,28 +1148,22 @@ PrefabInstance:
       addedObject: {fileID: 1099730747}
     - targetCorrespondingSourceObject: {fileID: 2810565967334122870, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1099730757}
+      addedObject: {fileID: 1099730762}
     - targetCorrespondingSourceObject: {fileID: 2810565967334122870, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1099730756}
+      addedObject: {fileID: 1099730761}
     - targetCorrespondingSourceObject: {fileID: 3049945509118580723, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1880068516}
     - targetCorrespondingSourceObject: {fileID: 3049945509118580723, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1880068521}
-    - targetCorrespondingSourceObject: {fileID: 3049945509118580723, guid: 296b418466748244ab98b7227a665bcb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1880068520}
+      addedObject: {fileID: 1880068525}
     - targetCorrespondingSourceObject: {fileID: 7933758176532311593, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 106887457}
     - targetCorrespondingSourceObject: {fileID: 7933758176532311593, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 106887467}
-    - targetCorrespondingSourceObject: {fileID: 7933758176532311593, guid: 296b418466748244ab98b7227a665bcb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 106887466}
+      addedObject: {fileID: 106887471}
     - targetCorrespondingSourceObject: {fileID: -3927710106722183163, guid: 296b418466748244ab98b7227a665bcb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 656834772}
@@ -2366,8 +2322,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.935205, y: 1, z: 2.5396657}
-  m_Center: {x: 1.1730015, y: 0, z: 0.24880958}
+  m_Size: {x: 3.935205, y: 1, z: 2.0956216}
+  m_Center: {x: 1.1730015, y: 0, z: 0.02678752}
 --- !u!114 &202146840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3865,64 +3821,11 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2787085101090216147, guid: 296b418466748244ab98b7227a665bcb, type: 3}
---- !u!114 &466755763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466755755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f77c020bd07d8a4db8b9340245ec05d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e5b4478df500b1748825f8c1f71db2b3, type: 2}
-  useCallbacks: 0
-  stopSoundOnDisable: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &466755764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466755755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f2c8a590acd38469985bc3961e47c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0.14556572, y: 0.0394426, z: 0.0000002624888}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!108 &466755765
 Light:
   m_ObjectHideFlags: 0
@@ -3985,6 +3888,45 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &466755769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466755755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c10a279c0a8af4f943de4717770777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventoSonido:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e5b4478df500b1748825f8c1f71db2b3, type: 2}
+  fadeOutMs: 150
+  evitarSuperposicion: 1
+--- !u!65 &466755770
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466755755}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.99033076, y: 0.5018479, z: 2.407421}
+  m_Center: {x: 0.07831945, y: -0.21592444, z: 1.2037047}
 --- !u!1 &478416225 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -31486342304897095, guid: 296b418466748244ab98b7227a665bcb, type: 3}
@@ -4633,59 +4575,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3116392934721534162, guid: 296b418466748244ab98b7227a665bcb, type: 3}
---- !u!114 &592984741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 592984733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f77c020bd07d8a4db8b9340245ec05d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 540a18f26cdc08843a5093b379b08926, type: 2}
-  useCallbacks: 0
-  stopSoundOnDisable: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &592984742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 592984733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f2c8a590acd38469985bc3961e47c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!1 &594079179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5985338418704531998, guid: 296b418466748244ab98b7227a665bcb, type: 3}
@@ -4973,7 +4862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &635860699
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7827,12 +7716,12 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3116392934721534162, guid: 296b418466748244ab98b7227a665bcb, type: 3}
---- !u!114 &1099730756
+--- !u!114 &1099730761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7841,50 +7730,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 1099730743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f77c020bd07d8a4db8b9340245ec05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 71c10a279c0a8af4f943de4717770777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
+  eventoSonido:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 540a18f26cdc08843a5093b379b08926, type: 2}
-  useCallbacks: 0
-  stopSoundOnDisable: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &1099730757
-MonoBehaviour:
+  fadeOutMs: 150
+  evitarSuperposicion: 1
+--- !u!65 &1099730762
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099730743}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f2c8a590acd38469985bc3961e47c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
+  serializedVersion: 3
+  m_Size: {x: 1.8362999, y: 2.2220333, z: 0.68}
+  m_Center: {x: 0.07528782, y: -0.8954727, z: 0.34000704}
 --- !u!1 &1100823839 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1399427285442789375, guid: 296b418466748244ab98b7227a665bcb, type: 3}
@@ -12302,7 +12177,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3116392934721534162, guid: 296b418466748244ab98b7227a665bcb, type: 3}
---- !u!114 &1880068520
+--- !u!114 &1880068525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12311,50 +12186,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1880068512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f77c020bd07d8a4db8b9340245ec05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 11ed1129dc4524d4999a301ab544d650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
+  eventoLoopWwise:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 20da57f5dfd08d54594576df267e24bf, type: 2}
-  useCallbacks: 0
-  stopSoundOnDisable: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &1880068521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1880068512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f2c8a590acd38469985bc3961e47c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
+    WwiseObjectReference: {fileID: 11400000, guid: 540a18f26cdc08843a5093b379b08926, type: 2}
+  nombreRTPC: RTPC_VolumenProximidad
+  distanciaMinima: 0.83
+  distanciaMaxima: 2.3
+  margenApagado: 0.75
+  volumenMaximoRTPC: 81
 --- !u!1 &1881716781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4219051290890870588, guid: 296b418466748244ab98b7227a665bcb, type: 3}

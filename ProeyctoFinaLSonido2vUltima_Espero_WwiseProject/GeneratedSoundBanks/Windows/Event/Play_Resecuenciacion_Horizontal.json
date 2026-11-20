@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{050FBF2F-283F-429F-B48F-A28AC8382AB4}",
     "Language": "SFX",
-    "Hash": "{5B8C1260-549A-17A4-93BA-6193FA70B357}",
+    "Hash": "{634B4504-9FDA-BC65-BFBF-0F368DE1C8E6}",
     "ObjectPath": "Play_Resecuenciacion_Horizontal",
     "ShortName": "Play_Resecuenciacion_Horizontal",
     "Path": "Event/Play_Resecuenciacion_Horizontal.bnk",
@@ -129,6 +129,6 @@
     ]
    }
   ],
-  "FileHash": "{65B80B9F-BC49-C2E3-7887-78C544E19042}"
+  "FileHash": "{FC8EF92A-158B-5BBD-FFD0-134C03D584BD}"
  }
 }

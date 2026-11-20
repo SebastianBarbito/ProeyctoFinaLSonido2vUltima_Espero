@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{8FB5C380-3541-D5A1-6EFA-220C8B86C38E}",
+    "Hash": "{E172CC4C-3968-7721-4497-97B233E301F8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
@@ -356,7 +356,6 @@
       "Name": "Play_Caloventor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Caloventor",
       "GUID": "{317CA2DD-40AE-495B-8E0A-031562044088}",
-      "MaxAttenuation": "6",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -397,7 +396,6 @@
       "Name": "Play_Falla_Ascensor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Falla_Ascensor",
       "GUID": "{DE0F08E4-4C56-4FD8-B702-7ECE2286C267}",
-      "MaxAttenuation": "2.6999998",
       "DurationType": "OneShot",
       "DurationMin": "2.80207",
       "DurationMax": "2.80207",
@@ -475,7 +473,6 @@
       "Name": "Play_Led",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Led",
       "GUID": "{4AA4AD53-9CEC-4C47-B3D1-52E04D4F7B90}",
-      "MaxAttenuation": "6.6000004",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -759,6 +756,6 @@
     ]
    }
   ],
-  "FileHash": "{C6C0933B-5690-9D60-4963-08DDDA067542}"
+  "FileHash": "{BEC5B1FA-6D83-8EC3-1693-33E6A2783AE5}"
  }
 }
