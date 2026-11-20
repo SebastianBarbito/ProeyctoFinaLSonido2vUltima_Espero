@@ -1,5 +1,7 @@
-using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+// Si usas TextMeshPro, descomenta la siguiente línea y cambia Text por TMP_Text:
+// using TMPro;
 
 public class DoorController : MonoBehaviour
 {
@@ -10,70 +12,106 @@ public class DoorController : MonoBehaviour
     public Vector3 rotationAxis = new Vector3(0, 1, 0);
 
     public float smooth = 2f;
-    public float closeDelay = 3f;
 
     [Header("Configuración de Wwise (Audio)")]
     public AK.Wwise.Event eventoAbrirPuerta;
     public AK.Wwise.Event eventoCerrarPuerta;
 
+    [Header("UI de Interacción")]
+    [Tooltip("Panel que aparece al acercarse a la puerta")]
+    public GameObject panelInteractuar;
+    [Tooltip("Texto opcional dentro del panel para asegurar el mensaje")]
+    public Text textoInteractuar; // O usa TMP_Text si trabajas con TextMeshPro
+    public string mensajeInteractuar = "Presiona E para interactuar";
+
     private Quaternion defaultRot;
     private Quaternion targetRot;
-    private Coroutine closeCoroutine;
-    private bool estaAbierta = false; // Para evitar spam del sonido si el player se queda en el trigger
+    private bool jugadorEnZona = false;
+    private bool estaAbierta = false;
+
+    void Awake()
+    {
+        if (panelInteractuar != null)
+        {
+            panelInteractuar.SetActive(false);
+        }
+    }
 
     void Start()
     {
-        // Guardamos la rotación local inicial de la puerta
         defaultRot = transform.localRotation;
         targetRot = defaultRot;
     }
 
     void Update()
     {
-        // Rota suavemente la puerta usando rotación local
         transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRot, Time.deltaTime * smooth);
+
+        if (!jugadorEnZona) return;
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (!estaAbierta)
+            {
+                OpenDoor();
+            }
+            else
+            {
+                CloseDoor();
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player")) return;
+
+        jugadorEnZona = true;
+
+        if (textoInteractuar != null)
         {
-            OpenDoor();
+            textoInteractuar.text = mensajeInteractuar;
+        }
+
+        if (panelInteractuar != null)
+        {
+            panelInteractuar.SetActive(true);
         }
     }
 
-    void OpenDoor()
+    private void OnTriggerExit(Collider other)
     {
-        // Aplica la rotación multiplicando por el eje configurado
+        if (!other.CompareTag("Player")) return;
+
+        jugadorEnZona = false;
+
+        if (panelInteractuar != null)
+        {
+            panelInteractuar.SetActive(false);
+        }
+    }
+
+    private void OpenDoor()
+    {
         targetRot = defaultRot * Quaternion.Euler(rotationAxis * openAngle);
 
-        // Reproduce el sonido de apertura solo si la puerta estaba cerrada
-        if (!estaAbierta)
+        if (eventoAbrirPuerta != null && eventoAbrirPuerta.IsValid())
         {
-            if (eventoAbrirPuerta != null && eventoAbrirPuerta.IsValid())
-            {
-                eventoAbrirPuerta.Post(gameObject);
-            }
-            estaAbierta = true;
+            eventoAbrirPuerta.Post(gameObject);
         }
 
-        if (closeCoroutine != null)
-        {
-            StopCoroutine(closeCoroutine);
-        }
-        closeCoroutine = StartCoroutine(CloseDoorRoutine());
+        estaAbierta = true;
     }
 
-    IEnumerator CloseDoorRoutine()
+    private void CloseDoor()
     {
-        yield return new WaitForSeconds(closeDelay);
         targetRot = defaultRot;
 
-        // Reproduce el sonido de cierre al volver a la posición original
         if (eventoCerrarPuerta != null && eventoCerrarPuerta.IsValid())
         {
             eventoCerrarPuerta.Post(gameObject);
         }
+
         estaAbierta = false;
     }
 }

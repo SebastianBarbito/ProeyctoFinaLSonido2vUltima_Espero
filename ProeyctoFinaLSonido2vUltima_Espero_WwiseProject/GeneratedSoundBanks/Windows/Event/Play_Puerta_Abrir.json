@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{03B6A1F4-188D-4F7A-85F9-2B03B1247312}",
     "Language": "SFX",
-    "Hash": "{DD6899BE-04CB-627B-6E75-17B888C2F632}",
+    "Hash": "{EF76FFDC-B48A-B034-EC80-BF47F3337D61}",
     "ObjectPath": "Play_Puerta_Abrir",
     "ShortName": "Play_Puerta_Abrir",
     "Path": "Event/Play_Puerta_Abrir.bnk",
@@ -31,7 +31,6 @@
       "Name": "Play_Puerta_Abrir",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Puerta_Abrir",
       "GUID": "{03B6A1F4-188D-4F7A-85F9-2B03B1247312}",
-      "MaxAttenuation": "3",
       "DurationType": "OneShot",
       "DurationMin": "0.47723",
       "DurationMax": "0.47723",
@@ -44,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{DAE8C77A-FF83-1451-14E1-FEE8F8737654}"
+  "FileHash": "{FD479BBE-BDDF-04B8-F8E7-30B53C4FE2BD}"
  }
 }

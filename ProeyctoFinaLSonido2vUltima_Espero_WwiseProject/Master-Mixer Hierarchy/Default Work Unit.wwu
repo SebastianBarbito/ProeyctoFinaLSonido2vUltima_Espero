@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{F792338C-398F-47E4-80FA-3893FD99C421}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{2EC8B447-62A6-4DEA-8408-C7E94473E77B}" WorkUnitID="{0F31D664-0FBE-4490-B499-25301829EEC0}"/>
@@ -19,8 +26,9 @@
 												<Custom>
 													<Effect Name="Peak Limiter (Custom)" ID="{152FE01C-AEA3-495C-B4BC-8869F9E86977}" ShortID="601061751" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 														<PropertyList>
-															<Property Name="Ratio" Type="Real32" Value="15"/>
-															<Property Name="ReleaseTime" Type="Real32" Value="0.17"/>
+															<Property Name="LookAhead" Type="Real32" Value="0.007"/>
+															<Property Name="Ratio" Type="Real32" Value="11.7"/>
+															<Property Name="ReleaseTime" Type="Real32" Value="0.11"/>
 															<Property Name="Threshold" Type="Real32" Value="-2"/>
 														</PropertyList>
 													</Effect>

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8c3392f78f39e44780fa3893fd99c421
     GuidInternal: 
-    m_lastTime: -8584064838864640461
+    m_lastTime: -8584064586369000004
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fc693bcaf409c44bac6fe881f71427bc
     GuidInternal: 
-    m_lastTime: -8584064820144491924
+    m_lastTime: -8584064586368496973
     List:
     - name: Main_SoundBanks
       guid: 6f0bf8d98bf022449770bd5e5c64dbff
@@ -141,7 +141,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: dda27c31ae405b498e0a031562044088
       Path: Events\Default Work Unit\Play_Caloventor
-      maxAttenuation: 3
+      maxAttenuation: 5.3999996
       maxDuration: 0
       minDuration: 0
     - name: Play_Camilla
@@ -192,7 +192,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e4080fde564cd84fb7027ece2286c267
       Path: Events\Default Work Unit\Play_Falla_Ascensor
-      maxAttenuation: 2
+      maxAttenuation: 2.6999998
       maxDuration: 2.80207
       minDuration: 2.80207
     - name: Play_Goteo
@@ -260,7 +260,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 01db87f2cf431f448abf3ce71397de3f
       Path: Events\Default Work Unit\Play_Lamar_Ascensor
-      maxAttenuation: 2
+      maxAttenuation: 0
       maxDuration: 8.37704
       minDuration: 8.37704
     - name: Play_Led
@@ -277,7 +277,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 53ada44aec9c474cb3d152e04d4f7b90
       Path: Events\Default Work Unit\Play_Led
-      maxAttenuation: 4
+      maxAttenuation: 7.2
       maxDuration: 0
       minDuration: 0
     - name: Play_Llave_Encontrada
@@ -345,7 +345,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f4a1b6038d187a4f85f92b03b1247312
       Path: Events\Default Work Unit\Play_Puerta_Abrir
-      maxAttenuation: 3
+      maxAttenuation: 0
       maxDuration: 0.47723
       minDuration: 0.47723
     - name: Play_Puerta_Bloqueada
@@ -379,7 +379,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 91e7a43c895b8245a1d3c20cf2d7be30
       Path: Events\Default Work Unit\Play_Puerta_Cerrar
-      maxAttenuation: 3
+      maxAttenuation: 0
       maxDuration: 0.35788
       minDuration: 0.35788
     - name: Play_Puerta_Desabloqueada
@@ -617,7 +617,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c10cae1de959754eb58ed69dd80faf43
       Path: Events\Default Work Unit\Resume_Ambient
-      maxAttenuation: 4
+      maxAttenuation: 7.2
       maxDuration: 0
       minDuration: 0
     - name: Stop_Ambiente

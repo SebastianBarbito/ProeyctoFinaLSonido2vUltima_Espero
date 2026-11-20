@@ -1018,6 +1018,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Dialogos_Camilla_01" ID="{F24B9944-3FE3-4419-95FF-527EFA909E85}" ShortID="979172044">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -1047,6 +1054,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Dialogos_Camilla_02" ID="{C31A580A-FB5F-45B5-B6D2-43D4CEB7368D}" ShortID="312097250">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>65</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -1292,6 +1306,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<RandomSequenceContainer Name="Hojas_Volando" ID="{046FA7FD-98D1-40F6-8D0A-1C6D813A67F6}" ShortID="180608898">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9007051-7E72-4AD8-92B1-0F1E4D17AD35}"/>
@@ -1306,6 +1327,11 @@
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>45</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1342,6 +1368,11 @@
 										<Value>-2</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>38</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1376,6 +1407,11 @@
 										<Value>-4</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>61</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1408,6 +1444,11 @@
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>69</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

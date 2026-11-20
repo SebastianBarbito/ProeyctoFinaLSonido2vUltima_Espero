@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Ventilacion" ID="{544CB0AE-FDB7-4DA0-902C-B025ACB37356}" ShortID="393358803">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="5"/>
+						<Property Name="RadiusMax" Type="Real64" Value="3"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,18 +21,18 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>2.94492</XPos>
+											<XPos>1.29287</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>4.686275</XPos>
+											<XPos>2.63399</XPos>
 											<YPos>-200</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>5</XPos>
+											<XPos>3</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -212,7 +212,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>2.36324</XPos>
+											<XPos>2.00768</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
@@ -301,17 +301,17 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0</YPos>
+											<YPos>-0.96893</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
 											<XPos>1.15809</XPos>
-											<YPos>0</YPos>
+											<YPos>-0.8617</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2.680995</XPos>
+											<XPos>2.40692</XPos>
 											<YPos>-200</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>

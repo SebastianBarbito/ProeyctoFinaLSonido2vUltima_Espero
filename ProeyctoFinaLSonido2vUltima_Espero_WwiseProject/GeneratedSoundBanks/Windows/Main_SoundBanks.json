@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{68EBF2C3-CDA0-32CC-F651-8F71D5E1BF7A}",
+    "Hash": "{ECD56DEB-4F08-4B0E-9AF5-596CA0933B5F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
@@ -356,7 +356,7 @@
       "Name": "Play_Caloventor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Caloventor",
       "GUID": "{317CA2DD-40AE-495B-8E0A-031562044088}",
-      "MaxAttenuation": "3",
+      "MaxAttenuation": "5.3999996",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -397,7 +397,7 @@
       "Name": "Play_Falla_Ascensor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Falla_Ascensor",
       "GUID": "{DE0F08E4-4C56-4FD8-B702-7ECE2286C267}",
-      "MaxAttenuation": "2",
+      "MaxAttenuation": "2.6999998",
       "DurationType": "OneShot",
       "DurationMin": "2.80207",
       "DurationMax": "2.80207",
@@ -461,7 +461,6 @@
       "Name": "Play_Lamar_Ascensor",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Lamar_Ascensor",
       "GUID": "{F287DB01-43CF-441F-8ABF-3CE71397DE3F}",
-      "MaxAttenuation": "2",
       "DurationType": "OneShot",
       "DurationMin": "8.37704",
       "DurationMax": "8.37704",
@@ -476,7 +475,7 @@
       "Name": "Play_Led",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Led",
       "GUID": "{4AA4AD53-9CEC-4C47-B3D1-52E04D4F7B90}",
-      "MaxAttenuation": "4",
+      "MaxAttenuation": "7.2",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -760,6 +759,6 @@
     ]
    }
   ],
-  "FileHash": "{250EC59D-56CE-6440-745D-78741B20C613}"
+  "FileHash": "{C9C6319C-C1D3-7151-6225-4A5D22DA2096}"
  }
 }

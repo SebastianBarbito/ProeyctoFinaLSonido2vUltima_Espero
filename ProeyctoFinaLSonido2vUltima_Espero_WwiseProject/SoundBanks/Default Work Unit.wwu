@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main_SoundBanks" ID="{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Hojas_Volando" ID="{F28E2FC1-CCA2-40C4-984E-A700ED933FF1}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goteo" ID="{79FE2AFF-93AB-4230-A578-CBB34F559635}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Voz_Camilla" ID="{D28E0BBD-16E9-423D-AFCB-AFE39EBF7EB3}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Puerta_Bloqueada" ID="{8EB3BF7C-A57F-4254-9376-C28C628D0519}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
