@@ -11,6 +11,10 @@ public class LlaveMisteriosa : MonoBehaviour
     [Header("Audio de Wwise")]
     public AK.Wwise.Event eventoRecogerLlave;
 
+    [Header("Diálogo del Jugador (ControladorVozPlayer)")]
+    [Tooltip("ID del diálogo al recoger la llave misteriosa")]
+    public string idDialogoLlave = "llave";
+
     [Header("UI de Interacción y Mensaje")]
     [Tooltip("Aviso opcional al acercarse (ej. 'Presiona E para recoger')")]
     public GameObject panelInteractuar;
@@ -21,6 +25,7 @@ public class LlaveMisteriosa : MonoBehaviour
 
     private bool jugadorEnZona = false;
     private bool recogida = false;
+    private GameObject ultimoPlayer;
     private Collider col;
     private MeshRenderer[] renderers;
 
@@ -40,6 +45,8 @@ public class LlaveMisteriosa : MonoBehaviour
         if (recogida || !other.CompareTag("Player")) return;
 
         jugadorEnZona = true;
+        ultimoPlayer = other.gameObject;
+
         if (panelInteractuar != null)
         {
             panelInteractuar.SetActive(true);
@@ -81,6 +88,11 @@ public class LlaveMisteriosa : MonoBehaviour
         if (eventoRecogerLlave != null && eventoRecogerLlave.IsValid())
         {
             eventoRecogerLlave.Post(gameObject);
+        }
+
+        if (!string.IsNullOrWhiteSpace(idDialogoLlave) && ultimoPlayer != null)
+        {
+            ultimoPlayer.GetComponentInParent<ControladorVozPlayer>()?.ReproducirDialogo(idDialogoLlave);
         }
 
         if (col != null) col.enabled = false;

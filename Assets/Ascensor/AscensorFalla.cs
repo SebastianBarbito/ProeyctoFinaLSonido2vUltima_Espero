@@ -8,6 +8,13 @@ public class AscensorFalla : MonoBehaviour
     public AK.Wwise.Event eventoFallaAscensor;
     public AK.Wwise.Event eventoAdvertencia;
 
+    [Header("Diálogos del Jugador (ControladorVozPlayer)")]
+    [Tooltip("ID del diálogo al pulsar E para llamar al ascensor")]
+    public string idDialogoLlamar = "ascensor_llamar";
+
+    [Tooltip("ID del diálogo cuando falla el ascensor")]
+    public string idDialogoFalla = "ascensor_falla";
+
     [Header("Tiempos de la Secuencia")]
     public float tiempoLlamada = 1.5f;
     public float retrasoAdvertenciaYNota = 1.0f;
@@ -28,6 +35,7 @@ public class AscensorFalla : MonoBehaviour
 
     private bool secuenciaIniciada = false;
     private bool jugadorEnZona = false;
+    private GameObject ultimoPlayer;
 
     void Start()
     {
@@ -44,6 +52,8 @@ public class AscensorFalla : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorEnZona = true;
+            ultimoPlayer = other.gameObject;
+
             if (panelInteractuar != null)
             {
                 panelInteractuar.SetActive(true);
@@ -59,6 +69,7 @@ public class AscensorFalla : MonoBehaviour
         {
             secuenciaIniciada = true;
             jugadorEnZona = false;
+            ultimoPlayer = other.gameObject;
 
             if (panelInteractuar != null)
             {
@@ -88,6 +99,11 @@ public class AscensorFalla : MonoBehaviour
             eventoLlamarAscensor.Post(gameObject);
         }
 
+        if (!string.IsNullOrWhiteSpace(idDialogoLlamar) && ultimoPlayer != null)
+        {
+            ultimoPlayer.GetComponentInParent<ControladorVozPlayer>()?.ReproducirDialogo(idDialogoLlamar);
+        }
+
         if (tiempoLlamada > 0f)
         {
             yield return new WaitForSeconds(tiempoLlamada);
@@ -96,6 +112,11 @@ public class AscensorFalla : MonoBehaviour
         if (eventoFallaAscensor != null && eventoFallaAscensor.IsValid())
         {
             eventoFallaAscensor.Post(gameObject);
+        }
+
+        if (!string.IsNullOrWhiteSpace(idDialogoFalla) && ultimoPlayer != null)
+        {
+            ultimoPlayer.GetComponentInParent<ControladorVozPlayer>()?.ReproducirDialogo(idDialogoFalla);
         }
 
         if (camaraPlayer != null)

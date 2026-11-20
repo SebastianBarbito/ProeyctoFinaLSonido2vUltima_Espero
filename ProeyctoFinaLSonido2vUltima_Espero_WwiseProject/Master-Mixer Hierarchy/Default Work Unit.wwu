@@ -33,6 +33,30 @@
 						</ObjectList>
 					</ObjectLists>
 				</Bus>
+				<Bus Name="Voice" ID="{042158E0-D3DE-48A0-8702-E5BBDB1543CA}">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{2EC8B447-62A6-4DEA-8408-C7E94473E77B}" WorkUnitID="{0F31D664-0FBE-4490-B499-25301829EEC0}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

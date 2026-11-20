@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8c3392f78f39e44780fa3893fd99c421
     GuidInternal: 
-    m_lastTime: -8584065483809161123
+    m_lastTime: -8584064838864640461
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,20 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Voice
+      guid: e0582104ded3a0488702e5bbdb1543ca
+      id: 3170124113
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c3392f78f39e44780fa3893fd99c421
+      - ElementName: Voice
+        ObjectType: 2
+        guid: e0582104ded3a0488702e5bbdb1543ca
+      Path: Master-Mixer Hierarchy\Default Work Unit\Voice
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +80,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fc693bcaf409c44bac6fe881f71427bc
     GuidInternal: 
-    m_lastTime: -8584064861618118878
+    m_lastTime: -8584064820144491924
     List:
     - name: Main_SoundBanks
       guid: 6f0bf8d98bf022449770bd5e5c64dbff
@@ -94,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 49ed2acf65acc54c86f14bdd0db74f94
     GuidInternal: 
-    m_lastTime: -8584064861617859563
+    m_lastTime: -8584064820144215472
     List:
     - name: Play_Advertencia
       guid: 70b5bd615e14484ab48b4fed879f0faf
@@ -348,7 +362,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 91e7a43c895b8245a1d3c20cf2d7be30
       Path: Events\Default Work Unit\Play_Puerta_Cerrar
-      maxAttenuation: 3
+      maxAttenuation: 4
       maxDuration: 0.35788
       minDuration: 0.35788
     - name: Play_Puerta_Desabloqueada
@@ -382,7 +396,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 971fda1b4d9c0c4c8e4939ab69adf866
       Path: Events\Default Work Unit\Play_Reloj
-      maxAttenuation: 3
+      maxAttenuation: 4
       maxDuration: 0
       minDuration: 0
     - name: Play_Remezcla_Vertical
@@ -436,6 +450,142 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.66668
       minDuration: 0.66668
+    - name: Play_Voz_Ascensor_Falla
+      guid: cf8de33fd3f5e04c92d7a55697f8504e
+      id: 1171249949
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Voz_Ascensor_Falla
+        ObjectType: 3
+        guid: cf8de33fd3f5e04c92d7a55697f8504e
+      Path: Events\Default Work Unit\Play_Voz_Ascensor_Falla
+      maxAttenuation: 0
+      maxDuration: 4.18817
+      minDuration: 4.18817
+    - name: Play_Voz_Ascensor_Llamar
+      guid: ef0f833ec8156146b3bbc33c24dbabb4
+      id: 2409975080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Voz_Ascensor_Llamar
+        ObjectType: 3
+        guid: ef0f833ec8156146b3bbc33c24dbabb4
+      Path: Events\Default Work Unit\Play_Voz_Ascensor_Llamar
+      maxAttenuation: 0
+      maxDuration: 2.81197
+      minDuration: 2.81197
+    - name: Play_Voz_Buscar_Llave
+      guid: 076cc78098aed64f8300ecaabf535196
+      id: 1200338181
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Voz_Buscar_Llave
+        ObjectType: 3
+        guid: 076cc78098aed64f8300ecaabf535196
+      Path: Events\Default Work Unit\Play_Voz_Buscar_Llave
+      maxAttenuation: 0
+      maxDuration: 3.84168
+      minDuration: 3.84168
+    - name: Play_Voz_Camilla
+      guid: bd0b8ed2e9163d42afcbafe39ebf7eb3
+      id: 988481877
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Voz_Camilla
+        ObjectType: 3
+        guid: bd0b8ed2e9163d42afcbafe39ebf7eb3
+      Path: Events\Default Work Unit\Play_Voz_Camilla
+      maxAttenuation: 0
+      maxDuration: 3.49313
+      minDuration: 2.66141
+    - name: Play_Voz_Escape_Exitoso
+      guid: 9599c29992646447bedad56c7524da6c
+      id: 2364620755
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Voz_Escape_Exitoso
+        ObjectType: 3
+        guid: 9599c29992646447bedad56c7524da6c
+      Path: Events\Default Work Unit\Play_Voz_Escape_Exitoso
+      maxAttenuation: 0
+      maxDuration: 0.92683
+      minDuration: 0.92683
+    - name: Play_Voz_Exploracion
+      guid: 4abf0527f0b1e54a8ff4e83a963616d2
+      id: 2064584860
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Voz_Exploracion
+        ObjectType: 3
+        guid: 4abf0527f0b1e54a8ff4e83a963616d2
+      Path: Events\Default Work Unit\Play_Voz_Exploracion
+      maxAttenuation: 0
+      maxDuration: 4.3069
+      minDuration: 3.38615
+    - name: Play_Voz_Llave_Encontrada
+      guid: 6f30a6d58b09b34aaeb38c3259dd4894
+      id: 3955215780
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Voz_Llave_Encontrada
+        ObjectType: 3
+        guid: 6f30a6d58b09b34aaeb38c3259dd4894
+      Path: Events\Default Work Unit\Play_Voz_Llave_Encontrada
+      maxAttenuation: 0
+      maxDuration: 4.17032
+      minDuration: 4.17032
+    - name: Play_Voz_Puerta_Bloqueada
+      guid: a0bf89f02e815f438feb6bdbd76cb485
+      id: 914608470
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49ed2acf65acc54c86f14bdd0db74f94
+      - ElementName: Play_Voz_Puerta_Bloqueada
+        ObjectType: 3
+        guid: a0bf89f02e815f438feb6bdbd76cb485
+      Path: Events\Default Work Unit\Play_Voz_Puerta_Bloqueada
+      maxAttenuation: 0
+      maxDuration: 3.53269
+      minDuration: 3.53269
     - name: Resume_Ambient
       guid: c10cae1de959754eb58ed69dd80faf43
       id: 539592213

@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}",
     "Language": "SFX",
-    "Hash": "{723FFE5C-2DB7-F232-99AA-2280C40FD4ED}",
+    "Hash": "{58B3D654-7402-2644-E3AA-C005101870CB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBanks",
     "ShortName": "Main_SoundBanks",
     "Path": "Main_SoundBanks.bnk",
     "Media": [
+     {
+      "Id": "24735295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogos_Pasillo_Habitaciones.wav",
+      "CachePath": "C7/{C7EAFA28-A402-70EB-6C10-A0B68861D329}.wem"
+     },
+     {
+      "Id": "36918819",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogos_Pasillo_Habitaciones.wav",
+      "CachePath": "9D/{9D97C132-6470-EF73-1C8B-723A0CD70BAC}.wem"
+     },
      {
       "Id": "54029900",
       "Language": "SFX",
@@ -96,6 +112,30 @@
       "CachePath": "45/{454114CF-C86D-0309-B2AE-C87417BC94DF}.wem"
      },
      {
+      "Id": "322312362",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Llamar-Ascensor.wav",
+      "CachePath": "57/{57A1B34F-684C-CBFC-A53C-81C9C64BFF17}.wem"
+     },
+     {
+      "Id": "339798846",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buscar_Llave.wav",
+      "CachePath": "BB/{BBEA9AAC-7567-6865-83C9-30DF929B3FC6}.wem"
+     },
+     {
+      "Id": "372959557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Puerta_Necesita_llave.wav",
+      "CachePath": "4C/{4C6F9C68-25DD-EDF3-482D-DDCD2E637CD9}.wem"
+     },
+     {
       "Id": "458566016",
       "Language": "SFX",
       "Streaming": "false",
@@ -120,6 +160,14 @@
       "CachePath": "59/{5907055E-DBF0-2074-B8A3-C00F477729A0}.wem"
      },
      {
+      "Id": "550118344",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogos_Pasillo_Habitaciones.wav",
+      "CachePath": "89/{89CFAE7E-D29C-D732-ECCB-31287CEBD9A1}.wem"
+     },
+     {
       "Id": "560863874",
       "Language": "SFX",
       "Streaming": "false",
@@ -136,12 +184,28 @@
       "CachePath": "5D/{5DB47B3B-6CD7-6F09-5E44-F2FB23EC336B}.wem"
      },
      {
+      "Id": "580973979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Llave_Rescatada.wav",
+      "CachePath": "AE/{AE4F61D3-B0E3-08A8-FEA7-B6F84A501374}.wem"
+     },
+     {
       "Id": "596029218",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Ventilacion_Habitacion1_13.wav",
       "CachePath": "AE/{AEE9FA21-A16E-D225-F4F6-ECCEC9C394A1}.wem"
+     },
+     {
+      "Id": "652222669",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogos_Camilla.wav",
+      "CachePath": "03/{03086D2D-6ACF-927D-8C99-DE886CF64358}.wem"
      },
      {
       "Id": "684139152",
@@ -184,6 +248,14 @@
       "CachePath": "FE/{FE234709-E185-9752-0EAC-56041A94FE2A}.wem"
      },
      {
+      "Id": "856407277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogos_Camilla.wav",
+      "CachePath": "B5/{B58B91FD-CE82-37C3-3713-02DE12A3C742}.wem"
+     },
+     {
       "Id": "895831658",
       "Language": "SFX",
       "Streaming": "false",
@@ -200,12 +272,36 @@
       "CachePath": "A7/{A793FCF5-31CA-503D-F2DE-3269A0DE6F6E}.wem"
      },
      {
+      "Id": "914248198",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fallar_Ascensor.wav",
+      "CachePath": "87/{8700E8CE-C5DD-F884-59AB-8D745FEA36A4}.wem"
+     },
+     {
       "Id": "917981791",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Prender_Linterna.wav",
       "CachePath": "3F/{3F7562F8-8751-47E4-A5A8-97C85173FD3F}.wem"
+     },
+     {
+      "Id": "1050215900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Escape_Exito.wav",
+      "CachePath": "E4/{E4F55703-19B8-F86C-146E-C618028938C8}.wem"
+     },
+     {
+      "Id": "1058531829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogos_Camilla.wav",
+      "CachePath": "39/{399EE409-F373-37C8-65F4-1B61A4AB28EA}.wem"
      }
     ],
     "Events": [
@@ -325,7 +421,7 @@
       "Name": "Play_Led",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Led",
       "GUID": "{4AA4AD53-9CEC-4C47-B3D1-52E04D4F7B90}",
-      "MaxAttenuation": "3",
+      "MaxAttenuation": "4",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -417,7 +513,7 @@
       "Name": "Play_Reloj",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Reloj",
       "GUID": "{1BDA1F97-9C4D-4C0C-8E49-39AB69ADF866}",
-      "MaxAttenuation": "3",
+      "MaxAttenuation": "4",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -461,6 +557,130 @@
       ]
      },
      {
+      "Id": "1171249949",
+      "Name": "Play_Voz_Ascensor_Falla",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voz_Ascensor_Falla",
+      "GUID": "{3FE38DCF-F5D3-4CE0-92D7-A55697F8504E}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.18817",
+      "DurationMax": "4.18817",
+      "MediaRefs": [
+       {
+        "Id": "914248198"
+       }
+      ]
+     },
+     {
+      "Id": "2409975080",
+      "Name": "Play_Voz_Ascensor_Llamar",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voz_Ascensor_Llamar",
+      "GUID": "{3E830FEF-15C8-4661-B3BB-C33C24DBABB4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.81197",
+      "DurationMax": "2.81197",
+      "MediaRefs": [
+       {
+        "Id": "322312362"
+       }
+      ]
+     },
+     {
+      "Id": "1200338181",
+      "Name": "Play_Voz_Buscar_Llave",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voz_Buscar_Llave",
+      "GUID": "{80C76C07-AE98-4FD6-8300-ECAABF535196}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.84168",
+      "DurationMax": "3.84168",
+      "MediaRefs": [
+       {
+        "Id": "339798846"
+       }
+      ]
+     },
+     {
+      "Id": "988481877",
+      "Name": "Play_Voz_Camilla",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voz_Camilla",
+      "GUID": "{D28E0BBD-16E9-423D-AFCB-AFE39EBF7EB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.66141",
+      "DurationMax": "3.49313",
+      "MediaRefs": [
+       {
+        "Id": "652222669"
+       },
+       {
+        "Id": "856407277"
+       },
+       {
+        "Id": "1058531829"
+       }
+      ]
+     },
+     {
+      "Id": "2364620755",
+      "Name": "Play_Voz_Escape_Exitoso",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voz_Escape_Exitoso",
+      "GUID": "{99C29995-6492-4764-BEDA-D56C7524DA6C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.92683",
+      "DurationMax": "0.92683",
+      "MediaRefs": [
+       {
+        "Id": "1050215900"
+       }
+      ]
+     },
+     {
+      "Id": "2064584860",
+      "Name": "Play_Voz_Exploracion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voz_Exploracion",
+      "GUID": "{2705BF4A-B1F0-4AE5-8FF4-E83A963616D2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.38615",
+      "DurationMax": "4.3069",
+      "MediaRefs": [
+       {
+        "Id": "24735295"
+       },
+       {
+        "Id": "36918819"
+       },
+       {
+        "Id": "550118344"
+       }
+      ]
+     },
+     {
+      "Id": "3955215780",
+      "Name": "Play_Voz_Llave_Encontrada",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voz_Llave_Encontrada",
+      "GUID": "{D5A6306F-098B-4AB3-AEB3-8C3259DD4894}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.17032",
+      "DurationMax": "4.17032",
+      "MediaRefs": [
+       {
+        "Id": "580973979"
+       }
+      ]
+     },
+     {
+      "Id": "914608470",
+      "Name": "Play_Voz_Puerta_Bloqueada",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voz_Puerta_Bloqueada",
+      "GUID": "{F089BFA0-812E-435F-8FEB-6BDBD76CB485}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.53269",
+      "DurationMax": "3.53269",
+      "MediaRefs": [
+       {
+        "Id": "372959557"
+       }
+      ]
+     },
+     {
       "Id": "3077582168",
       "Name": "Stop_Apagar_Linterna",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Apagar_Linterna",
@@ -485,6 +705,6 @@
     ]
    }
   ],
-  "FileHash": "{E42B9242-9B42-0305-DBED-B53F64985AED}"
+  "FileHash": "{D591B2FA-7ACE-12FA-9227-72FCE3C7C902}"
  }
 }

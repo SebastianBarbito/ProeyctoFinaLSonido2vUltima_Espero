@@ -263,6 +263,94 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Voz_Exploracion" ID="{2705BF4A-B1F0-4AE5-8FF4-E83A963616D2}">
+					<ChildrenList>
+						<Action Name="" ID="{C32CEA84-8086-4A1D-9D69-7CF7A3C8C2B6}" ShortID="69171618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pasillo_Habitaciones" ID="{234F2896-0A37-4F80-99EA-6887A5E08ED9}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_Camilla" ID="{D28E0BBD-16E9-423D-AFCB-AFE39EBF7EB3}">
+					<ChildrenList>
+						<Action Name="" ID="{49137B48-5FEF-4C39-B6F0-8C56A72C375E}" ShortID="729761445">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sustos_Camilla" ID="{5D4CAA29-1EC9-4562-8304-2BAA2E005408}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_Ascensor_Llamar" ID="{3E830FEF-15C8-4661-B3BB-C33C24DBABB4}">
+					<ChildrenList>
+						<Action Name="" ID="{2F20A7E3-9DA8-486C-9B46-59BD3093D073}" ShortID="713318146">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voz_Llamar-Ascensor" ID="{47A78C6C-CB02-416B-BDE4-E123F2AAEF24}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_Ascensor_Falla" ID="{3FE38DCF-F5D3-4CE0-92D7-A55697F8504E}">
+					<ChildrenList>
+						<Action Name="" ID="{181B9310-7E7B-47EF-B395-7B97E30C2C10}" ShortID="113132953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voz_Ascensor_Falla" ID="{28F94874-4321-45FC-A652-69EDB61D5CE2}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_Buscar_Llave" ID="{80C76C07-AE98-4FD6-8300-ECAABF535196}">
+					<ChildrenList>
+						<Action Name="" ID="{B1D22D22-52F1-481C-91A0-83A58C72DCD5}" ShortID="1008531776">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voz_Buscar_Llave" ID="{768C09F6-4F95-4683-BB58-BA190F69AAD0}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_Llave_Encontrada" ID="{D5A6306F-098B-4AB3-AEB3-8C3259DD4894}">
+					<ChildrenList>
+						<Action Name="" ID="{7A161B0F-4038-47A0-BFCE-CE5C0A2E4E4A}" ShortID="288543552">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voz_Llave_Encontrada" ID="{E6F48167-00D0-4F05-9764-D07405F48AA3}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_Puerta_Bloqueada" ID="{F089BFA0-812E-435F-8FEB-6BDBD76CB485}">
+					<ChildrenList>
+						<Action Name="" ID="{4EAB640A-18C8-4102-8D45-FEF0E254F3D9}" ShortID="888280709">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voz_Puerta_Bloqueada" ID="{6619DDF9-E1C1-4880-8CA2-B268A2C56CFB}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_Escape_Exitoso" ID="{99C29995-6492-4764-BEDA-D56C7524DA6C}">
+					<ChildrenList>
+						<Action Name="" ID="{F8A87E7A-DF21-46FD-9FDF-E2D774F443A6}" ShortID="732282414">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vos_Salida_Exitosa" ID="{EDB85D07-EB0A-4E45-8E66-5117465312BD}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

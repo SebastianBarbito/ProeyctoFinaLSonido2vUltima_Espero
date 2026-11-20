@@ -3,17 +3,25 @@ Event	ID	Name			Wwise Object Path	Notes
 	357313574	Play_Goteo_Techo			\Default Work Unit\Play_Goteo_Techo	
 	566163868	Play_Llave_Encontrada			\Default Work Unit\Play_Llave_Encontrada	
 	688593871	Play_Caloventor			\Default Work Unit\Play_Caloventor	
+	914608470	Play_Voz_Puerta_Bloqueada			\Default Work Unit\Play_Voz_Puerta_Bloqueada	
 	978577829	Play_Puerta_Desabloqueada			\Default Work Unit\Play_Puerta_Desabloqueada	
+	988481877	Play_Voz_Camilla			\Default Work Unit\Play_Voz_Camilla	
+	1171249949	Play_Voz_Ascensor_Falla			\Default Work Unit\Play_Voz_Ascensor_Falla	
+	1200338181	Play_Voz_Buscar_Llave			\Default Work Unit\Play_Voz_Buscar_Llave	
 	1321838970	Play_Advertencia			\Default Work Unit\Play_Advertencia	
 	1710759427	Play_Falla_Ascensor			\Default Work Unit\Play_Falla_Ascensor	
 	1810150942	Play_Lamar_Ascensor			\Default Work Unit\Play_Lamar_Ascensor	
+	2064584860	Play_Voz_Exploracion			\Default Work Unit\Play_Voz_Exploracion	
 	2176756322	Play_Encender_Linterna			\Default Work Unit\Play_Encender_Linterna	
 	2270890718	Play_Puerta_Bloqueada			\Default Work Unit\Play_Puerta_Bloqueada	
+	2364620755	Play_Voz_Escape_Exitoso			\Default Work Unit\Play_Voz_Escape_Exitoso	
+	2409975080	Play_Voz_Ascensor_Llamar			\Default Work Unit\Play_Voz_Ascensor_Llamar	
 	2624422069	Play_Led			\Default Work Unit\Play_Led	
 	2813165888	Play_Goteo			\Default Work Unit\Play_Goteo	
 	2829283560	Play_Remezcla_Vertical			\Default Work Unit\Play_Remezcla_Vertical	
 	3077582168	Stop_Apagar_Linterna			\Default Work Unit\Stop_Apagar_Linterna	
 	3408996381	Play_Camilla			\Default Work Unit\Play_Camilla	
+	3955215780	Play_Voz_Llave_Encontrada			\Default Work Unit\Play_Voz_Llave_Encontrada	
 	4005120638	Play_Silla_Ruedas			\Default Work Unit\Play_Silla_Ruedas	
 	4031831520	Play_Pasos			\Default Work Unit\Play_Pasos	
 	4237703276	Play_Musica			\Default Work Unit\Play_Musica	
@@ -22,6 +30,8 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2816995233	Distance_Volumen			\Default Work Unit\Distance_Volumen	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24735295	Dialogos_Pasillo_Habitaciones	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\C7\{C7EAFA28-A402-70EB-6C10-A0B68861D329}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasillo_Habitaciones\Dialogos_Pasillo_Habitaciones		649804
+	36918819	Dialogos_Pasillo_Habitaciones_02	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\9D\{9D97C132-6470-EF73-1C8B-723A0CD70BAC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasillo_Habitaciones\Dialogos_Pasillo_Habitaciones_02		597412
 	54029900	SFX_Reloj	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\33\{33EF9109-50AF-7A24-E0DB-A807ABC5CCE1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Reloj		5789532
 	65666645	piano	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\08\{08E3B8DB-A974-AE82-0EAA-9D50D4C63A0E}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\piano		12288096
 	118241064	SFX_Advertencia	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\C1\{C1C51D42-AB75-7BD3-FBC9-C41E85FF91F8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Advertencia		138732
@@ -32,18 +42,28 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	213031688	SFX_Puerta_Bloqueada	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\EB\{EBB2BC83-9A44-1835-7D13-C7D0394C8E9F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Puerta_Bloqueada		146932
 	238874393	SFX_Llamar_Ascensor	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\8B\{8BCEB18B-CB86-7FBF-BDEF-50FD4B2D05FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Llamar_Ascensor		1608488
 	319897442	SFX_Puerta_Desbloqueada	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\45\{454114CF-C86D-0309-B2AE-C87417BC94DF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Puerta_Desbloqueada		384096
+	322312362	Voz_Llamar-Ascensor	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\57\{57A1B34F-684C-CBFC-A53C-81C9C64BFF17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voz_Llamar-Ascensor		496128
+	339798846	Voz_Buscar_Llave	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\BB\{BBEA9AAC-7567-6865-83C9-30DF929B3FC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voz_Buscar_Llave		677772
+	372959557	Voz_Puerta_Bloqueada	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\4C\{4C6F9C68-25DD-EDF3-482D-DDCD2E637CD9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voz_Puerta_Bloqueada		678376
 	458566016	SFX_Pasos_Ladrillo_02	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\62\{626F62D2-EFD6-8712-2990-1B16B2371383}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos_Ladrillo\SFX_Pasos_Ladrillo_02		148568
 	473951343	SFX_Pasos_Ladrillo_03	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\73\{7337BB73-A562-302A-50B9-86579A0AB53D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos_Ladrillo\SFX_Pasos_Ladrillo_03		74324
 	544425411	bajo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\59\{5907055E-DBF0-2074-B8A3-C00F477729A0}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\bajo		12288096
+	550118344	Dialogos_Pasillo_Habitaciones_01	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\89\{89CFAE7E-D29C-D732-ECCB-31287CEBD9A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasillo_Habitaciones\Dialogos_Pasillo_Habitaciones_01		759832
 	560863874	violin	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\37\{37B1296E-CDAE-C07A-BDA1-39C497BECB23}.wem		\Interactive Music Hierarchy\Default Work Unit\Remezcla_Vertical\Remezcla_Vertical\violin		12288096
 	574671294	SFX_Pasos_Ladrillo_01	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\5D\{5DB47B3B-6CD7-6F09-5E44-F2FB23EC336B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos_Ladrillo\SFX_Pasos_Ladrillo_01		130020
+	580973979	Voz_Llave_Encontrada	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\AE\{AE4F61D3-B0E3-08A8-FEA7-B6F84A501374}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voz_Llave_Encontrada		800796
 	596029218	SFX_Caloventor	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\AE\{AEE9FA21-A16E-D225-F4F6-ECCEC9C394A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Caloventor		2702072
+	652222669	Dialogos_Camilla_02	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\03\{03086D2D-6ACF-927D-8C99-DE886CF64358}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sustos_Camilla\Dialogos_Camilla_02		616284
 	684139152	SFX_Silla_Rueda	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\F9\{F9FFA288-EEB0-9E7C-D56D-0D2701082555}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Silla_Rueda		128100
 	726894518	Musica_Prueba	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\7C\{7CE7260A-FA17-F32D-EE6D-6EA36DC7E466}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica_Prueba		3792696
 	769250874	SFX_Apagar_Linterna	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\06\{06748C66-2902-5B6B-6632-47BF99A67CDA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Apagar_Linterna		37792
 	785842707	SFX_Llave_Encontrada	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\21\{216B9E82-D745-F736-5E44-6186242B3241}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Llave_Encontrada		192096
 	803582596	SFX_Falla_Ascensor	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\FE\{FE234709-E185-9752-0EAC-56041A94FE2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Falla_Ascensor		494384
+	856407277	Dialogos_Camilla_01	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\B5\{B58B91FD-CE82-37C3-3713-02DE12A3C742}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sustos_Camilla\Dialogos_Camilla_01		518484
 	895831658	SFX_Goteo_Techo	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\68\{68C364EF-9144-FB7E-D320-C006635FBC41}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo_Techo		233372
 	906966753	SXF_Foco_Salida	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\A7\{A793FCF5-31CA-503D-F2DE-3269A0DE6F6E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SXF_Foco_Salida		1682476
+	914248198	Voz_Ascensor_Falla	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\87\{8700E8CE-C5DD-F884-59AB-8D745FEA36A4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voz_Ascensor_Falla		738888
 	917981791	SFX_Prender_Linterna	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\3F\{3F7562F8-8751-47E4-A5A8-97C85173FD3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Prender_Linterna		93940
+	1050215900	Vos_Salida_Exitosa	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\E4\{E4F55703-19B8-F86C-146E-C618028938C8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vos_Salida_Exitosa		178048
+	1058531829	Dialogos_Camilla	C:\Users\Rodrigo\Desktop\ProeyctoFinaLSonido2vUltima_Espero\ProeyctoFinaLSonido2vUltima_Espero_WwiseProject\.cache\39\{399EE409-F373-37C8-65F4-1B61A4AB28EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sustos_Camilla\Dialogos_Camilla		469568
 

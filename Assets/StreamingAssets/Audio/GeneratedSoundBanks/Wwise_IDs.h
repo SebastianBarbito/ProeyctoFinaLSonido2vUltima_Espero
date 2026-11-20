@@ -33,6 +33,14 @@ namespace AK
         static const AkUniqueID PLAY_REMEZCLA_VERTICAL = 2829283560U;
         static const AkUniqueID PLAY_RESECUENCIACION_HORIZONTAL = 1915193845U;
         static const AkUniqueID PLAY_SILLA_RUEDAS = 4005120638U;
+        static const AkUniqueID PLAY_VOZ_ASCENSOR_FALLA = 1171249949U;
+        static const AkUniqueID PLAY_VOZ_ASCENSOR_LLAMAR = 2409975080U;
+        static const AkUniqueID PLAY_VOZ_BUSCAR_LLAVE = 1200338181U;
+        static const AkUniqueID PLAY_VOZ_CAMILLA = 988481877U;
+        static const AkUniqueID PLAY_VOZ_ESCAPE_EXITOSO = 2364620755U;
+        static const AkUniqueID PLAY_VOZ_EXPLORACION = 2064584860U;
+        static const AkUniqueID PLAY_VOZ_LLAVE_ENCONTRADA = 3955215780U;
+        static const AkUniqueID PLAY_VOZ_PUERTA_BLOQUEADA = 914608470U;
         static const AkUniqueID RESUME_AMBIENT = 539592213U;
         static const AkUniqueID STOP_AMBIENTE = 2091828637U;
         static const AkUniqueID STOP_APAGAR_LINTERNA = 3077582168U;
@@ -69,6 +77,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID VOICE = 3170124113U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

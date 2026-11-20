@@ -6,22 +6,30 @@
 				<SoundBank Name="Main_SoundBanks" ID="{D9F80B6F-F08B-4422-9770-BD5E5C64DBFF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Goteo" ID="{79FE2AFF-93AB-4230-A578-CBB34F559635}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_Camilla" ID="{D28E0BBD-16E9-423D-AFCB-AFE39EBF7EB3}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Puerta_Bloqueada" ID="{8EB3BF7C-A57F-4254-9376-C28C628D0519}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Camilla" ID="{53A6F27B-872C-4324-970E-3CE416E11F39}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_Puerta_Bloqueada" ID="{F089BFA0-812E-435F-8FEB-6BDBD76CB485}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Apagar_Linterna" ID="{DBC5E340-1CA9-43EC-B875-52E3123D632C}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Lamar_Ascensor" ID="{F287DB01-43CF-441F-8ABF-3CE71397DE3F}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Puerta_Desabloqueada" ID="{5F301B20-4AFD-465C-ACD6-D95A14EDA7F9}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_Ascensor_Llamar" ID="{3E830FEF-15C8-4661-B3BB-C33C24DBABB4}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pasos" ID="{D61CC46E-8499-4665-96F1-5ADA33524642}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_Escape_Exitoso" ID="{99C29995-6492-4764-BEDA-D56C7524DA6C}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Musica" ID="{8E67F4DC-B450-478C-88A7-6FE78B061D80}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Caloventor" ID="{317CA2DD-40AE-495B-8E0A-031562044088}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goteo_Techo" ID="{41F62D75-AFEF-495E-8A1F-0E932F2C25CC}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Advertencia" ID="{61BDB570-145E-4A48-B48B-4FED879F0FAF}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Remezcla_Vertical" ID="{30D15122-B4B3-4A66-86D4-8835BD023060}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_Llave_Encontrada" ID="{D5A6306F-098B-4AB3-AEB3-8C3259DD4894}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Llave_Encontrada" ID="{52E7C3AC-DEC5-4ABE-AEBF-DB0FE2DF8CBA}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_Exploracion" ID="{2705BF4A-B1F0-4AE5-8FF4-E83A963616D2}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Reloj" ID="{1BDA1F97-9C4D-4C0C-8E49-39AB69ADF866}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Led" ID="{4AA4AD53-9CEC-4C47-B3D1-52E04D4F7B90}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_Ascensor_Falla" ID="{3FE38DCF-F5D3-4CE0-92D7-A55697F8504E}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Silla_Ruedas" ID="{EC28FEF4-EFD2-4DA1-8BB7-82F44F00DADB}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Prender_Linterna" ID="{F1DD922D-3EEA-4DAE-8042-BFD6C56811C9}" WorkUnitID="{2F3859C1-4BD9-41E1-8813-A7B1C8C9BF69}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_Buscar_Llave" ID="{80C76C07-AE98-4FD6-8300-ECAABF535196}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Falla_Ascensor" ID="{DE0F08E4-4C56-4FD8-B702-7ECE2286C267}" WorkUnitID="{CF2AED49-AC65-4CC5-86F1-4BDD0DB74F94}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

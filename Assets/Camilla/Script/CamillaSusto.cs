@@ -16,9 +16,13 @@ public class CamillaSusto : MonoBehaviour
     [Tooltip("Retraso opcional antes de moverse tras detectar al Player")]
     public float retrasoActivacion = 0f;
 
-    [Header("Audio de Wwise")]
+    [Header("Audio de Wwise (Camilla 3D)")]
     [Tooltip("Evento de Wwise con el sonido de las ruedas/metal de la camilla")]
     public AK.Wwise.Event eventoMoverCamilla;
+
+    [Header("Diálogo del Jugador")]
+    [Tooltip("ID configurado en ControladorVozPlayer dentro del Player")]
+    public string idDialogoCamilla = "camilla";
 
     [Header("Opciones de Activación")]
     [Tooltip("Si está activo, solo ocurre una vez por partida")]
@@ -27,6 +31,7 @@ public class CamillaSusto : MonoBehaviour
     private Vector3 posicionInicial;
     private Quaternion rotacionInicial;
     private bool yaSeActivo = false;
+    private GameObject ultimoPlayerDetectado;
 
     void Start()
     {
@@ -40,6 +45,7 @@ public class CamillaSusto : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         yaSeActivo = true;
+        ultimoPlayerDetectado = other.gameObject;
         StartCoroutine(MoverCamillaRoutine());
     }
 
@@ -50,14 +56,11 @@ public class CamillaSusto : MonoBehaviour
             yield return new WaitForSeconds(retrasoActivacion);
         }
 
-        // Disparar sonido espacializado en la camilla
         if (eventoMoverCamilla != null && eventoMoverCamilla.IsValid())
         {
             eventoMoverCamilla.Post(gameObject);
         }
 
-        Vector3 posicionObjetivo = posicionInicial + transform.TransformDirection(desplazamientoLocal);
-        // Si es hija de otro objeto rotado, usamos localPosition con rotación local:
         Vector3 posLocalObjetivo = posicionInicial + (rotacionInicial * desplazamientoLocal);
         Quaternion rotLocalObjetivo = rotacionInicial * Quaternion.Euler(rotacionExtra);
 
@@ -67,7 +70,6 @@ public class CamillaSusto : MonoBehaviour
         {
             tiempo += Time.deltaTime;
             float t = Mathf.Clamp01(tiempo / duracionMovimiento);
-            // Curva suave al frenar (Ease Out) para que parezca que rueda y frena de golpe
             float curva = 1f - Mathf.Pow(1f - t, 3f);
 
             transform.localPosition = Vector3.Lerp(posicionInicial, posLocalObjetivo, curva);
@@ -78,5 +80,14 @@ public class CamillaSusto : MonoBehaviour
 
         transform.localPosition = posLocalObjetivo;
         transform.localRotation = rotLocalObjetivo;
+
+        if (ultimoPlayerDetectado != null)
+        {
+            ControladorVozPlayer vozPlayer = ultimoPlayerDetectado.GetComponentInParent<ControladorVozPlayer>();
+            if (vozPlayer != null)
+            {
+                vozPlayer.ReproducirDialogo(idDialogoCamilla);
+            }
+        }
     }
 }

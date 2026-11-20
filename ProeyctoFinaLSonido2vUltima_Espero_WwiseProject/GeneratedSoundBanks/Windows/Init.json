@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{03AF0EE8-7648-AAF0-E928-8D57B2EE2D84}",
+    "Hash": "{3E9E7C41-2B14-3CB6-A1C9-B59272A02638}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -45,6 +45,12 @@
      ]
     },
     "Busses": [
+     {
+      "Id": "3170124113",
+      "Name": "Voice",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Voice",
+      "GUID": "{042158E0-D3DE-48A0-8702-E5BBDB1543CA}"
+     },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
@@ -103,6 +109,6 @@
     ]
    }
   ],
-  "FileHash": "{F71BCC93-E9B8-5566-5311-67159A94F586}"
+  "FileHash": "{F2D4834F-D535-213B-DF65-B81E7769BC58}"
  }
 }

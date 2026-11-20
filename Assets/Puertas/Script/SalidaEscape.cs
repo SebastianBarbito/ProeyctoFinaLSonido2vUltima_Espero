@@ -10,6 +10,13 @@ public class SalidaEscape : MonoBehaviour
     public AK.Wwise.Event eventoEscapeExitoso;
     public AK.Wwise.Event eventoPuertaBloqueada;
 
+    [Header("Diálogos del Jugador (ControladorVozPlayer)")]
+    [Tooltip("ID del diálogo cuando presiona E sin tener la llave misteriosa")]
+    public string idDialogoSinLlave = "puerta_sin_llave";
+
+    [Tooltip("ID del diálogo cuando escapa exitosamente con la llave")]
+    public string idDialogoEscape = "escape";
+
     [Header("UI de Interacción y Finalización")]
     [Tooltip("Aviso al acercarse (ej. 'Presiona E para escapar')")]
     public GameObject panelInteractuar;
@@ -23,6 +30,7 @@ public class SalidaEscape : MonoBehaviour
 
     private bool jugadorEnZona = false;
     private bool escapeActivado = false;
+    private GameObject ultimoPlayer;
 
     void Awake()
     {
@@ -46,6 +54,8 @@ public class SalidaEscape : MonoBehaviour
         if (escapeActivado || !other.CompareTag("Player")) return;
 
         jugadorEnZona = true;
+        ultimoPlayer = other.gameObject;
+
         if (panelInteractuar != null)
         {
             panelInteractuar.SetActive(true);
@@ -76,6 +86,11 @@ public class SalidaEscape : MonoBehaviour
                 eventoEscapeExitoso.Post(gameObject);
             }
 
+            if (!string.IsNullOrWhiteSpace(idDialogoEscape) && ultimoPlayer != null)
+            {
+                ultimoPlayer.GetComponentInParent<ControladorVozPlayer>()?.ReproducirDialogo(idDialogoEscape);
+            }
+
             StartCoroutine(FinalizarJuegoRoutine());
         }
         else
@@ -88,6 +103,11 @@ public class SalidaEscape : MonoBehaviour
             if (eventoPuertaBloqueada != null && eventoPuertaBloqueada.IsValid())
             {
                 eventoPuertaBloqueada.Post(gameObject);
+            }
+
+            if (!string.IsNullOrWhiteSpace(idDialogoSinLlave) && ultimoPlayer != null)
+            {
+                ultimoPlayer.GetComponentInParent<ControladorVozPlayer>()?.ReproducirDialogo(idDialogoSinLlave);
             }
         }
     }

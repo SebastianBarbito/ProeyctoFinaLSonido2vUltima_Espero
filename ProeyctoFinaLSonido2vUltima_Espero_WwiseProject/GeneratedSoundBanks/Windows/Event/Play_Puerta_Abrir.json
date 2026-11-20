@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{03B6A1F4-188D-4F7A-85F9-2B03B1247312}",
     "Language": "SFX",
-    "Hash": "{FF43A18B-F688-775E-386F-F23FD73F5E4D}",
+    "Hash": "{F0EC1409-99A2-675E-2CE8-A1F4F2E525A3}",
     "ObjectPath": "Play_Puerta_Abrir",
     "ShortName": "Play_Puerta_Abrir",
     "Path": "Event/Play_Puerta_Abrir.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{AB76FED9-0B92-0DCC-D326-5039C8C3CE87}"
+  "FileHash": "{20FE72DC-270B-C2DC-FC8A-E29895DFBAF1}"
  }
 }

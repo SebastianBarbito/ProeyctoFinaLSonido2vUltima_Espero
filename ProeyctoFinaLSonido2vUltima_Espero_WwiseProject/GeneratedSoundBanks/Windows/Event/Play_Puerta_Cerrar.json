@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3CA4E791-5B89-4582-A1D3-C20CF2D7BE30}",
     "Language": "SFX",
-    "Hash": "{B16A6E04-65A0-E570-E416-DB371C2F7595}",
+    "Hash": "{CF15028E-BBD8-024D-BFFD-755F1CCC1BE3}",
     "ObjectPath": "Play_Puerta_Cerrar",
     "ShortName": "Play_Puerta_Cerrar",
     "Path": "Event/Play_Puerta_Cerrar.bnk",
@@ -31,7 +31,7 @@
       "Name": "Play_Puerta_Cerrar",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Puerta_Cerrar",
       "GUID": "{3CA4E791-5B89-4582-A1D3-C20CF2D7BE30}",
-      "MaxAttenuation": "3",
+      "MaxAttenuation": "4",
       "DurationType": "OneShot",
       "DurationMin": "0.35788",
       "DurationMax": "0.35788",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{EFF48C45-18A0-470F-892A-4BB2A44C986C}"
+  "FileHash": "{320825BD-C4D4-B0B9-93C1-71C633A26C70}"
  }
 }
